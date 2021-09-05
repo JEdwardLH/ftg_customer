@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/appbar"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:id="@+id/card_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="180dp"
+                        android:layout_height="180dp">
+
+                        <ImageView
+                            android:id="@+id/iv_app_logo"
+                            android:layout_width="180dp"
+                            android:layout_height="180dp"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/app_logo" />
+
+                        <LinearLayout
+                            android:layout_width="180dp"
+                            android:layout_height="180dp"
+                            android:layout_centerInParent="true"
+                            android:gravity="center" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/tv_version_name"
+                        style="@style/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginRight="16dp"
+                        app:fontFamily="@font/helvetica_light"
+                        android:gravity="center"
+                        android:text="@string/version"
+                        android:textColor="@color/app_theme_clr"
+                        android:textSize="28sp" />
+
+                    <TextView
+                        style="@style/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginRight="16dp"
+                        app:fontFamily="@font/helvetica_light"
+                        android:gravity="center"
+                        android:text="@string/this_is_current_version"
+                        android:textColor="@color/edit_txt_hint"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:id="@+id/btn_forgot_password"
+                        android:layout_width="180dp"
+                        android:layout_height="48dp"
+                        android:layout_margin="16dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/item_app_update"
+                        app:fontFamily="@font/helvetica_bold"
+                        android:text="@string/update"
+                        android:textColor="@color/edit_txt_hint"
+                        android:textSize="18sp" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

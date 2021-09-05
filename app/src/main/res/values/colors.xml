@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="colorPrimary">#C73940</color>
+  <color name="colorPrimaryDark">#e21c26</color>
+  <color name="colorAccent">#e21c26</color>
+  <color name="app_theme_clr">#e21c26</color>
+  <color name="colorRippleGray">#33000000</color>
+  <color name="colorPrimaryDark_outlie">#e21c26</color>
+
+
+  <color name="top_black_shadow">#4D000000</color>
+  <color name="color_orange">#e21c26</color>
+  <color name="color_orange_focus">#B92930</color>
+  <color name="color_orange_pressed">#B91D25</color>
+  <color name="color_orange_light">#59e21c26</color>
+  <color name="update_app_btn">#E8D8CF</color>
+  <color name="notification_clr">#FFE1CE</color>
+  <color name="color_orange_transperant">#4DFD8919</color>
+  <!--Register-->
+  <color name="edit_txt">#282828</color>
+  <color name="edit_txt_hint">#9C9797</color>
+  <color name="edit_txt_bg">#F2F6F9</color>
+
+
+  <color name="colorWhite">#FFFFFF</color>
+  <color name="colorViewNormal">#1C253D</color>
+  <color name="colorBlue">#0EAADE</color>
+  <color name="colorGreen">#ACDB18</color>
+  <color name="color_hint">#747F9B</color>
+  <color name="color_text_hint">#c5c5c5</color>
+  <color name="color_top_bar">#5b5a5a</color>
+  <color name="invoice_tab">#dbe5f7</color>
+  <color name="grey_bubble">#595B60</color>
+
+
+  <!--LanguageRequest-->
+  <color name="color_green">#6FCD14</color>
+  <color name="color_rose">#F52C56</color>
+  <color name="black_transperancy">#73000000</color>
+  <color name="white_transperancy">#f1eeed</color>
+  <color name="home_page_black">#99000000</color>
+  <color name="black">#000</color>
+
+
+
+  <!--Item details-->
+  <color name="light_color">#F4F2F1</color>
+  <color name="cart_title_clr">#282828</color>
+  <color name="light_grey_bg">#e4e4e4</color>
+  <color name="placeholder_bg">#dddddd</color>
+  <color name="lite_accent">#CE7979</color>
+  <color name="lite_accent_dark">#E61F25</color>
+</resources>

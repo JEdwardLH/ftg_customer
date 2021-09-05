@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            style="@style/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            app:fontFamily="@font/helvetica_ultra_light"
+            android:text="@string/by_name"
+            android:textColor="@color/edit_txt"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rdb_atz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                app:fontFamily="@font/helvetica_ultra_light"
+                android:text="@string/ascending_order_ato_z"
+                android:textColor="@color/edit_txt"
+                android:textSize="16sp"
+                android:theme="@style/RadioButtonTheme" />
+
+            <RadioButton
+                android:id="@+id/rdb_zta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                app:fontFamily="@font/helvetica_ultra_light"
+                android:text="@string/descending_order_zto_a"
+                android:textColor="@color/edit_txt"
+                android:textSize="16sp"
+                android:theme="@style/RadioButtonTheme" />
+
+
+            <TextView
+                style="@style/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:fontFamily="@font/helvetica_ultra_light"
+                android:text="@string/by_price"
+                android:textColor="@color/edit_txt"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/rdb_lth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                app:fontFamily="@font/helvetica_ultra_light"
+                android:text="@string/low_to_high"
+                android:textColor="@color/edit_txt"
+                android:textSize="16sp"
+                android:theme="@style/RadioButtonTheme" />
+
+            <RadioButton
+                android:id="@+id/rdb_htl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                app:fontFamily="@font/helvetica_ultra_light"
+                android:text="@string/high_to_low"
+                android:textColor="@color/edit_txt"
+                android:textSize="16sp"
+                android:theme="@style/RadioButtonTheme" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btn_sort_by"
+            style="@style/default_button"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            app:fontFamily="@font/helvetica_bold"
+            android:text="@string/show_items"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="80dp" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

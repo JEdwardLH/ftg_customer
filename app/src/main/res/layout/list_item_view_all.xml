@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_restaurant_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginEnd="15dp"
+    android:layout_marginRight="15dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        app:cardCornerRadius="5dp"
+        app:cardUseCompatPadding="true">
+
+        <ImageView
+            android:id="@+id/iv_food"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop"
+            android:src="@drawable/location_top_bg" />
+        <TextView
+            android:id="@+id/tv_available"
+            style="@style/textView"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="bottom"
+            android:background="@color/color_rose"
+            android:gravity="center"
+            android:text="Closed"
+            android:textColor="@color/colorWhite"
+            android:textSize="12sp" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/tv_rating"
+        style="@style/textView"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="8dp"
+        android:background="@drawable/round_rating"
+        android:gravity="center"
+        android:paddingBottom="4dp"
+        android:textColor="@color/colorWhite"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|start"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_toEndOf="@+id/card_view"
+        android:layout_toRightOf="@+id/card_view"
+        android:orientation="vertical"
+        tools:ignore="RtlHardcoded">
+
+
+        <TextView
+            android:id="@+id/tv_item_name"
+            style="@style/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"
+            android:gravity="center|start"
+            android:padding="5dp"
+            android:textColor="@color/edit_txt"
+            android:textSize="16sp"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/tv_food_category"
+            style="@style/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="3dp"
+            android:gravity="center|start"
+            android:paddingStart="5dp"
+            android:paddingLeft="5dp"
+            android:paddingEnd="5dp"
+            android:paddingRight="5dp"
+            android:textColor="@color/edit_txt_hint"
+            android:textSize="12sp"
+            app:fontFamily="@font/helvetica_regular"
+            tools:ignore="RtlHardcoded" />
+        <TextView
+            android:id="@+id/tv_restaurant_timing"
+            style="@style/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="5dp"
+            android:gravity="center|start"
+            android:paddingStart="5dp"
+            android:paddingLeft="5dp"
+            android:paddingEnd="5dp"
+            android:paddingBottom="3dp"
+            android:drawableLeft="@drawable/ic_available"
+            android:drawableStart="@drawable/ic_available"
+            android:visibility="gone"
+            android:paddingRight="5dp"
+            android:textColor="@color/edit_txt_hint"
+            android:textSize="14sp"
+            app:fontFamily="@font/helvetica_regular"
+            tools:ignore="RtlHardcoded" />
+        <TextView
+            android:id="@+id/tv_food_timing"
+            style="@style/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_delivery_time_svg"
+            android:drawableLeft="@drawable/ic_delivery_time_svg"
+            android:drawablePadding="5dp"
+            android:gravity="center|start"
+            android:paddingStart="5dp"
+            android:paddingLeft="5dp"
+            android:paddingEnd="5dp"
+            android:paddingRight="5dp"
+            android:textColor="@color/edit_txt_hint"
+            android:textSize="14sp"
+            app:fontFamily="@font/helvetica_regular"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/tv_food_description"
+            style="@style/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:drawableStart="@drawable/ic_offer_percentage_svg"
+            android:drawablePadding="5dp"
+            android:gravity="center|start"
+            android:maxLines="3"
+            android:paddingStart="5dp"
+            android:paddingLeft="5dp"
+            android:paddingEnd="5dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="3dp"
+            android:singleLine="false"
+            android:textColor="@color/edit_txt"
+            android:textSize="14sp"
+            app:fontFamily="@font/helvetica_regular" />
+
+    </LinearLayout>
+</RelativeLayout>

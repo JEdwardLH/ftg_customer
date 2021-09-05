@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        app:cardCornerRadius="5dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:id="@+id/tv_order_id_txt"
+                        style="@style/textView"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="7"
+                        app:fontFamily="@font/helvetica_medium"
+                        android:gravity="center|start"
+                        android:text="@string/item_name"
+                        android:textColor="@color/edit_txt"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:fontFamily="@font/helvetica_medium"
+                        android:text=":" />
+
+                    <TextView
+                        android:id="@+id/tv_order_id"
+                        style="@style/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="3"
+                        android:singleLine="false"
+                        android:maxLines="5"
+                        app:fontFamily="@font/helvetica_light"
+                        android:gravity="center|start"
+                        android:text="@string/gallery"
+                        android:textColor="@color/edit_txt_hint"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/date_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:id="@+id/tv_date_txt"
+                        style="@style/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="7"
+
+                        app:fontFamily="@font/helvetica_medium"
+                        android:gravity="center|start"
+                        android:text="@string/item_amount"
+                        android:textColor="@color/edit_txt"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:fontFamily="@font/helvetica_medium"
+                        android:text=":" />
+
+                    <TextView
+                        android:id="@+id/tv_date"
+                        style="@style/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="3"
+                        app:fontFamily="@font/helvetica_light"
+                        android:gravity="center|start"
+                        android:text="@string/gallery"
+                        android:textColor="@color/edit_txt_hint"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:id="@+id/tv_amount_txt"
+                        style="@style/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="7"
+                        app:fontFamily="@font/helvetica_medium"
+                        android:gravity="center|start"
+                        android:text="@string/refund_amount"
+                        android:textColor="@color/edit_txt"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:fontFamily="@font/helvetica_medium"
+                        android:text=":" />
+
+                    <TextView
+                        android:id="@+id/tv_amount"
+                        style="@style/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="3"
+                        app:fontFamily="@font/helvetica_light"
+                        android:gravity="center|start"
+                        android:text="@string/gallery"
+                        android:textColor="@color/edit_txt_hint"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_view_refund_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/light_grey_bg"
+                android:orientation="horizontal"
+                android:paddingStart="15dp"
+                android:paddingLeft="15dp"
+                android:paddingEnd="5dp"
+                android:paddingRight="5dp"
+                android:visibility="gone"
+                android:weightSum="10">
+
+                <TextView
+                    style="@style/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginBottom="6dp"
+                    android:drawableStart="@drawable/ic_view_refund"
+                    android:drawableLeft="@drawable/ic_view_refund"
+                    android:drawablePadding="15dp"
+                    app:fontFamily="@font/helvetica_medium"
+                    android:gravity="center|start"
+                    android:text="@string/view_refund_details"
+                    android:textColor="@color/color_orange"
+                    android:textSize="13sp" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

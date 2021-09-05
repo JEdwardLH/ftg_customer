@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/itemView"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_ht"
+    android:background="@color/colorWhite">
+
+    <ImageView
+        android:id="@+id/iv_profile_blur"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        android:src="@drawable/profile_default_pic"
+        android:visibility="visible" />
+
+    <RelativeLayout
+        android:id="@+id/ll_profile_data"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/top_black_shadow"
+        android:paddingStart="20dp"
+        android:paddingLeft="20dp"
+        android:paddingEnd="20dp"
+        android:paddingRight="20dp"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/iv_profile"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/profile_default_pic" />
+
+        <TextView
+            android:id="@+id/tv_profile_name"
+            style="@style/textView"
+            android:layout_below="@+id/iv_profile"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="8dp"
+            android:text="Manikandan Ponnusamy"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_profile_email"
+            style="@style/textView"
+            android:layout_below="@+id/tv_profile_name"
+            android:layout_centerVertical="true"
+            app:fontFamily="@font/helvetica_light"
+            android:text="mani.visolve@gmail.com"
+            android:textColor="@color/colorWhite"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+
+    <ImageView
+        android:id="@+id/iv_settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:background="@drawable/view_settings_clickable"
+        android:layout_toStartOf="@+id/ll_profile_data"
+        android:layout_toLeftOf="@+id/ll_profile_data"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_settings" />
+</RelativeLayout>

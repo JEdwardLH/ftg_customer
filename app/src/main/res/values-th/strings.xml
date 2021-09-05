@@ -1,0 +1,551 @@
+<resources>
+    <string name="app_name">FoodToGo</string>
+
+    <!--play store-->
+    <string name="app_google_play_store_link">"https://play.google.com/store/apps/details?id="</string>
+    <string name="server_client_id">6703277270811</string>
+    <string name="facebook_app_id">862809467815723</string>
+    <string name="fb_login_protocol_scheme">fb862809467815723</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+    <string name="default_notification_channel_name" translatable="true">FoodToGo! Delivery</string>
+    <string name="are_you">FoodToGo!</string>
+    <string name="app_name_questions"></string>
+    <string name="free">Free</string>
+
+
+
+    <string name="fcm_message">FoodToGo !</string>
+    <string name="app_market_link">"market://details?id="</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="exit_text">Please click BACK again to exit</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_favourites</item>
+        <item>@string/nav_item_order_history</item>
+        <item>@string/nav_item_your_address</item>
+        <item>@string/nav_item_review</item>
+        <item>@string/nav_item_rewards</item>
+        <item>@string/nav_item_wallet</item>
+        <item>@string/nav_item_refer_friend</item>
+        <item>@string/nav_item_help</item>
+        <item>@string/nav_item_empty</item>
+        <item>@string/nav_item_signout</item>
+    </string-array>
+
+    <string name="nav_item_favourites">Favourites</string>
+    <string name="nav_item_rewards">My Rewards</string>
+    <string name="nav_item_order_history">Order History</string>
+    <string name="nav_item_your_address">My Locations</string>
+    <string name="nav_item_manage_address">Manage Address</string>
+    <string name="nav_item_review">My Reviews</string>
+    <string name="nav_item_offers">My Offers</string>
+    <string name="nav_item_wallet">My Wallet</string>
+    <string name="nav_item_refer_friend">Refer Friend</string>
+    <string name="nav_item_help">Support</string>
+    <string name="nav_item_signout">Sign Out</string>
+    <string name="nav_item_empty">Empty</string>
+    <string name="nav_item_about">About</string>
+
+    <!--Login-->
+    <string name="otp_verify">OTP Verify</string>
+    <string name="verify">Verify</string>
+    <string name="please_enter_otp">Please enter the your one time password</string>
+
+    <!--Login-->
+    <string name="screen_login">LOGIN</string>
+    <string name="edit_user_name">Email</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="social_login">Social Login</string>
+    <string name="go_btn">GO</string>
+    <string name="ok_btn">OK</string>
+    <string name="action_cart">Cart</string>
+    <string name="edit_password">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="warning_empty_email_number">Please enter the email</string>
+    <string name="warning_valid_email_number">Please enter the valid email</string>
+    <string name="warning_empty_email">Please enter the email</string>
+    <string name="warning_empty_password"> Please enter the password</string>
+    <string name="warning_invalid_password">Password should contain atleast 6 to 10 characters</string>
+    <string name="warning_invalid_email">Please enter the valid email </string>
+    <string name="no_internet_connection">No Internet connection</string>
+    <string name="warning_incorrect_password">Password should contain atleast 6 to 10 characters</string>
+    <string name="warning">Info</string>
+    <string name="success">Success</string>
+    <string name="network_error">Network Error : No Data Received.</string>
+    <string name="time_out_error">Connection timeout. please try again</string>
+    <string name="server_error">Server error. please try again</string>
+    <string name="loading_wait">Loading&#8230; Please wait</string>
+    <string name="new_user">New User?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="for_your_info">For your information</string>
+
+
+    <!--Add Address-->
+    <string name="welcome_text">Welcome to FoodToGo! Delivery!</string>
+    <string name="welcome_description">Set your delivery address</string>
+    <string name="use_current_text">Use My Current Location</string>
+    <string name="select_it_manually">Set your Delivery Location</string>
+    <string name="no_wish_list">You have not marked any favourite food.</string>
+
+    <!--Landing Request Screen-->
+    <string name="get_start">GET START</string>
+    <string name="continue_txt">CONTINUE</string>
+    <string name="food">FOOD</string>
+    <string name="grocery">GROCERY</string>
+
+
+    <!--Register-->
+    <string name="screen_register">REGISTER</string>
+    <string name="edit_name">Name</string>
+    <string name="edit_email">Email</string>
+    <string name="default_country_code">91</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="warning_empty_mobile_number"> Please enter the mobile number</string>
+    <string name="warning_valid_mobile_number"> Please enter the valid mobile number</string>
+    <string name="warning_empty_name"> Please enter the name</string>
+    <string name="referral_code">Referral Code?</string>
+    <string name="referral_code_txt">Referral Code : </string>
+    <string name="apply">Apply</string>
+    <string name="enter_apply_code">Enter Referral Code</string>
+    <string name="otp_msg">OTP sent to your mobile. Please enter otp</string>
+
+
+
+    <!--Forgot your password-->
+    <string name="forgot_your_password">Forgot Your Password ?</string>
+    <string name="no_worries">No worries! Enter your email id </string>
+
+
+    <!--Home-->
+    <string name="home_view_all">View All</string>
+    <string name="view_all_restaurant">All Restaurants</string>
+    <string name="home_restaurants">Restaurants</string>
+    <string name="home_location">Home location</string>
+    <string name="no_restaurant_found">We could not find any restaurant in your area. Please try with another location.</string>
+    <string name="try_new_location">Try New location</string>
+    <string name="menu_restaurants">Menu  /  Restaurants  /  Locations</string>
+    <string name="new_restaurants">New Restaurant</string>
+    <string name="top_restaurants">Top Restaurant</string>
+    <string name="promotions">Promotions</string>
+    <string name="nearby">Nearby</string>
+    <string name="categories">Categories</string>
+
+
+
+
+
+
+    <!--Restaurant Details-->
+    <string name="all_restaurant">All Restaurant</string>
+    <string name="restaurant_search">Enter dish name</string>
+    <string name="only_veg">Only Veg</string>
+    <string name="select_subcategory">Select SubCategory</string>
+    <string name="plus_add">Add</string>
+    <string name="filter">FILTER</string>
+    <string name="by_name">By Name</string>
+    <string name="ascending_order_ato_z">A - Z</string>
+    <string name="descending_order_zto_a">Z - A</string>
+    <string name="by_price">By Price</string>
+    <string name="high_to_low">High - Low</string>
+    <string name="low_to_high">Low - High</string>
+    <string name="close_symbol">x</string>
+    <string name="description">DESCRIPTION</string>
+    <string name="pre_order">PRE-ORDER</string>
+    <string name="cancellation_policy">CANCELLATION POLICY</string>
+    <string name="cancel_allowed">CANCEL ALLOWED</string>
+    <string name="refund_status">REFUND STATUS</string>
+    <string name="reviews">REVIEWS</string>
+    <string name="preferable_items">Here Are The Preferable Items For Your </string>
+    <string name="cancel">Cancel</string>
+
+
+    <!--Filter-->
+    <string name="sort_by">Sort By</string>
+    <string name="show_item_with">Show Item width</string>
+    <string name="top_offers">Top Offers</string>
+    <string name="special_offers">Special Offers</string>
+    <string name="halal">Halal</string>
+    <string name="combo">Combo</string>
+    <string name="veg">Veg</string>
+    <string name="non_veg">Non - Veg</string>
+    <string name="both">Both</string>
+    <string name="time_of_day">Time of day</string>
+    <string name="break_fast">Break Fast</string>
+    <string name="lunch">Lunch</string>
+    <string name="dinner">Dinner</string>
+    <string name="brunch">Brunch</string>
+    <string name="supper">Supper</string>
+    <string name="category">Category</string>
+    <string name="show_items">Show Items</string>
+    <string name="most_preferable_time">Most Preferable Time</string>
+    <string name="show_restaurant_with">Show Restaurant with</string>
+    <string name="show_restaurant">Show Restaurants</string>
+    <string name="cuisines">Cuisines</string>
+    <string name="all">All</string>
+    <string name="top_offer">Top Offer</string>
+    <string name="delivery_time">Delivery Time</string>
+    <string name="ratings">Ratings</string>
+
+    <!--Item Details-->
+    <string name="specification">SPECIFICATION</string>
+    <string name="exclude">+ </string>
+    <string name="special_instruction">Add instruction to chef</string>
+    <string name="toppings">Toppings</string>
+    <string name="instruction_hint">Add a note (extra sauce, no onions etc...)</string>
+    <string name="related_food">RELATED FOOD</string>
+    <string name="added_to_cart">Add 1 to cart</string>
+    <string name="add">Add </string>
+    <string name="to_items">Items</string>
+    <string name="to_item">Item</string>
+    <string name="view_cart">VIEW CART</string>
+    <string name="to_cart">to cart</string>
+    <string name="lorel">Sachin Ramesh Tendulkar (/ˌsʌtʃɪn tɛnˈduːlkər/ (About this soundlisten); born 24 April 1973) is a former Indian international cricketer and a former captain of the Indian national team, regarded as one of the greatest batsman of all time.[4] He is the highest run scorer of all time in International cricket. Tendulkar took up cricket at the age of eleven, made his Test debut on 15 November 1989 against Pakistan in Karachi at the age of sixteen, and went on to represent Mumbai domestically and India internationally for close to twenty-four years. He is the only player to have scored one hundred international centuries, the first batsman to score a double century in a ODI, the holder of the record for the most number of runs in both Test and ODI, and the only player to complete more than 30,000 runs in international cricket.[5] He is colloquially known as Little Master or Master Blaster,[6][7][8][9] and often referred to as the God of Cricket by Indian cricket followers.[10][11] In 2001, Sachin Tendulkar became the first batsman to complete 10,000 ODI runs in his 259 innings.[12] In 2002, halfway through his career, Wisden Cricketers Almanack ranked him the second greatest Test batsman of all time, behind Don Bradman, and the second greatest ODI batsman of all time, behind Viv Richards.[13] Later in his career, Tendulkar was a part of the Indian team that won the 2011 World Cup, his first win in six World Cup appearances for India.[14] He had previously been named "Player of the Tournament" at the 2003 edition of the tournament, held in South Africa. In 2013, he was the only Indian cricketer included in an all-time Test World XI named to mark the 150th anniversary of Wisden Cricketers Almanack.</string>
+    <string name="no_items">No item found on this restaurant</string>
+    <string name="item_not_found">item not found</string>
+    <string name="item_quantity">QUANTITY</string>
+    <string name="item_tax">TAX</string>
+    <string name="item_pre_order_date">PRE-ORDER</string>
+    <string name="item_price">PRICE</string>
+    <string name="item_choice">CHOICE</string>
+    <string name="item_special">SPECIAL</string>
+    <string name="set_delivery_location">Set Delivery location</string>
+    <string name="confirm_location">CONFIRM LOCATION</string>
+    <string name="set_customer_address">Set Customer Address</string>
+    <string name="nav_cart">Cart</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_fav">Fav</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_track">Track</string>
+    <string name="nav_wallet">Wallet</string>
+
+    <!--My Cart-->
+    <string name="my_cart">Your Cart</string>
+    <string name="pre_order_camel">Pre Order</string>
+    <string name="pre_order_hypen">Pre - Order</string>
+    <string name="session_expired_title">Session Expired</string>
+    <string name="session_expired_message">Your session has expired. Please login again</string>
+    <string name="pre_booking">PRE ORDER</string>
+    <string name="sub_total">Sub total</string>
+    <string name="other_tax">Other Tax</string>
+    <string name="delivery_fees">Delivery fee</string>
+    <string name="by_wallet">By Wallet</string>
+    <string name="total">Total</string>
+    <string name="check_out">CHECKOUT</string>
+    <string name="i_am_empty">I am empty</string>
+    <string name="your_cart_is_empty">You cart is empty</string>
+    <string name="add_some_food">ADD SOME FOOD</string>
+    <string name="extra_charges">Extra Charges : </string>
+
+    <!-- Favourites-->
+
+    <string name="under_development">Under Development</string>
+
+
+    <!-- Add Shipping address-->
+    <string name="address">Address</string>
+    <string name="shipping_address">Shipping Address</string>
+    <string name="self_pick_up">Self PickUp</string>
+    <string name="same_shipping_address">Same Shipping Address</string>
+    <string name="first_name">First Name</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="last_name">Last Name</string>
+    <string name="email_id">Email Address</string>
+    <string name="customer_phone">Customer Phone</string>
+    <string name="alternative_number">Alternative Number</string>
+    <string name="customer_address">Customer Address</string>
+    <string name="flat_no_landmark">Door No / Floor No / Street / Land Mark</string>
+    <string name="submit">SUBMIT</string>
+    <string name="save">SAVE</string>
+    <string name="call_txt">Call</string>
+    <string name="error_user_name">Please enter user name</string>
+    <string name="error_first_name">Please enter first name</string>
+    <string name="error_last_name">Please enter last name</string>
+    <string name="error_empty_customer_mobile_number"> Please enter the customer mobile number</string>
+    <string name="error_valid_customer_mobile_number"> Please enter the valid customer mobile number</string>
+    <string name="error_empty_alternate_mobile_number"> Please enter the alternate mobile number</string>
+    <string name="error_valid_alternate_mobile_number"> Please enter the valid alternate mobile number</string>
+    <string name="error_address">Please enter address</string>
+    <string name="error_landmark">Door No / Floor No / Street / Land Mark is required</string>
+    <string name="skip_continue_txt">SKIP &amp; CONTINUE</string>
+    <string name="skip_txt">SKIP</string>
+    <!-- Add Payment-->
+    <string name="order_type">Order Type</string>
+    <string name="payment">Payment</string>
+    <string name="choose_how_to_pay">Choose how to pay</string>
+    <string name="cash_on_delivery">Cash On Delivery</string>
+    <string name="credit_card">Credit Card</string>
+    <string name="date_month">MM / YY</string>
+    <string name="cvv">Cvv code</string>
+    <string name="use_wallet">Wallet Used</string>
+    <string name="wallet_use">Use Wallet</string>
+    <string name="use_offer">Offer Used</string>
+    <string name="use_coupon">Coupon Used</string>
+    <string name="pay">Pay</string>
+    <string name="apply_coupon">Apply Offer</string>
+    <string name="terms_condition_txt">By clicking this button you are agree with our terms and conditions.</string>
+    <string name="error_terms_conditions">Please select terms and conditions</string>
+    <string name="wallet_amount_zero">"You don't have wallet balance"</string>
+    <string name="wallet_amount_conversion_error">Invalid wallet amount</string>
+    <string name="choose_any_payment_option">Please choose your payment option</string>
+    <string name="card_number_empty">Please enter credit card number</string>
+    <string name="card_number_error">Please enter valid credit card number</string>
+    <string name="card_expiry_empty">Please enter expiry month and year</string>
+    <string name="card_cvv_empty">Please enter cvv number</string>
+    <string name="expiry_date">EXPIRY MONTH &amp; YEAR</string>
+
+    <!-- About us-->
+    <string name="version">Version</string>
+    <string name="this_is_current_version">This is the latest version</string>
+    <string name="update">Update</string>
+
+    <!--Wallet-->
+    <string name="available_balance">Available Wallet Balance</string>
+    <string name="add_money">REFER FRIEND</string>
+    <string name="wallet_history">Wallet history</string>
+    <string name="applied">Applied</string>
+    <string name="order_id">Order Id : </string>
+
+    <!--Order History-->
+    <string name="pending">Pending</string>
+    <string name="pending_tab">Pending (%s)</string>
+    <string name="full_field">Fulfilled</string>
+    <string name="full_field_tab">Fulfilled (%s)</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="cancelled_tab">Cancelled (%s)</string>
+    <string name="track_your_restaurant">TRACK YOUR RESTAURANT</string>
+    <string name="near_by_you">Near by you</string>
+
+    <!--Refund History-->
+    <string name="completed">Completed</string>
+    <string name="refund">Refund Details</string>
+    <string name="item_name">Item name</string>
+    <string name="amount">Amount</string>
+    <string name="item_amount">Item amount</string>
+    <string name="refund_amount">Refund amount</string>
+    <string name="cancel_type">Cancel type</string>
+    <string name="view_refund_details">View Refund Details</string>
+    <string name="refund_details">Refund Details</string>
+    <string name="no_pending_refunds">No Pending Refunds</string>
+    <string name="no_completed_refund">No Completed Refunds</string>
+    <string name="refund_date">Refund Date</string>
+    <string name="transaction_id">Transaction Id </string>
+    <string name="commission">Commission</string>
+
+    <!--Orders-->
+    <string name="order_ids">Order Id</string>
+    <string name="order_on">Ordered</string>
+    <string name="total_amount">Total amount</string>
+    <string name="repeat_order">Repeat order</string>
+    <string name="invoice">Invoice</string>
+
+    <!--Order Pending-->
+    <string name="track">Track</string>
+    <string name="order_num">Order No: </string>
+    <string name="orders">Orders</string>
+    <string name="status">Status</string>
+    <string name="preorder_date">PreOrder Date</string>
+    <string name="add_review">Add Review</string>
+    <string name="cancel_date">Canceled Date</string>
+    <string name="refund_status_small">Refund Status</string>
+    <string name="view">View</string>
+    <string name="cancel_order">CANCEL ORDER</string>
+    <string name="your_comment">Your Comment</string>
+    <string name="reason_to_cancel">Reason to Cancel</string>
+    <string name="no_order_available">No Order Available</string>
+
+
+    <!--Rating -->
+    <string name="review">REVIEW</string>
+    <string name="post_review">SUBMIT REVIEW</string>
+    <string name="order">ORDER</string>
+    <string name="restaurant">RESTAURANT</string>
+    <string name="what_did_you_think">What did you think?</string>
+    <string name="select_your_rating">Please select your rating</string>
+    <string name="error_enter_you_comment">Please enter your comment</string>
+
+    <!--Invoice Report -->
+    <string name="invoice_details">Invoice Report</string>
+    <string name="customer_details">Customer detail</string>
+    <string name="delivery_address">Delivery Address</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="order_details">Order detail</string>
+    <string name="order_number">Order Number</string>
+    <string name="order_date">Order Date</string>
+    <string name="qty">Qty : </string>
+    <string name="include">Include</string>
+
+
+    <!--Change Password-->
+    <string name="change_password">Change Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="new_confirm_password">Confirm new password</string>
+    <string name="warning_empty_old_password"> Please enter the old password</string>
+    <string name="warning_empty_new_password"> Please enter the new password</string>
+    <string name="warning_empty_confirm_new_password"> Please enter the confirm new password</string>
+    <string name="password_confirm_does_not_match">"Password and confirm does n't match"</string>
+
+
+    <!--Profile-->
+    <string name="change_photo">Change Photo</string>
+    <string name="user_name">Username</string>
+    <string name="email">Email</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="choose">Upload Photo</string>
+
+    <!--Review History-->
+    <string name="restaurants">Restaurants</string>
+    <string name="items">Items</string>
+    <string name="no_items_reviews">You have not give any item reviews yet.</string>
+    <string name="no_restaurant_reviews">You have not give any restaurant reviews yet.</string>
+    <string name="no_order_reviews">You have not give any order reviews yet.</string>
+    <string name="order_limit_reached">out of stock</string>
+    <string name="no_restaurant_found_home">No Restaurant Found!</string>
+
+
+    <!--Payment Setting -->
+    <string name="enter_account_number">Enter account number</string>
+    <string name="enter_bank_name">Enter bank name</string>
+    <string name="enter_account_name">Enter account name</string>
+    <string name="account_number">Account Number</string>
+    <string name="name_account">Account Holder</string>
+    <string name="bank_name">Bank</string>
+
+
+    <!-- Refer Friend-->
+    <string name="refer_friend">Refer Friend</string>
+    <string name="referee_email">Referee Email</string>
+    <string name="view_all_reviews">All Review</string>
+
+    <string name="food_reached_msg">Food Reached to your Door step</string>
+    <string name="food_enjoy">Enjoy the food!!</string>
+
+    <string name="day">Day</string>
+    <string name="from_time">Open Time</string>
+    <string name="to_time">Close Time</string>
+    <string name="view_working_hours">View Working Hrs</string>
+    <string name="working_hrs">Working Hours</string>
+    <string name="update_cart">Update Cart</string>
+    <string name="view_item">View Item</string>
+
+
+    <string name="total_wallet">Total\nWallet</string>
+    <string name="used_wallet">Used\nWallet</string>
+    <string name="total_rewards">Total\nRewards</string>
+    <string name="no_records_found">No Records Found</string>
+    <string name="not_found">Not Found</string>
+    <string name="please_try_again">Please try again</string>
+    <string name="search_for_restaurants_items">Search For Restaurants/Items</string>
+    <string name="earned_history">Earned Point History</string>
+    <string name="reward_history">Rewarded History</string>
+    <string name="point_earned">Points Earned</string>
+    <string name="actioned_on">Actioned On</string>
+    <string name="reward_amount">Rewarded Amount</string>
+    <string name="points">Points</string>
+    <string name="no_rewards_found">No Rewards Found.</string>
+    <string name="total_earned_points">Earned Points</string>
+    <string name="total_reward_points">Reward Points</string>
+    <string name="total_balance_points">Balance Points</string>
+    <string name="total_offers_amount">Total Offers Amount</string>
+    <string name="total_used_amount">Total Used Amount</string>
+    <string name="balance_amount">Balance Amount</string>
+    <string name="expires_on">Expires on</string>
+    <string name="offer_amount">Offer Amount</string>
+    <string name="clear_all">CLEAR ALL</string>
+    <string name="failed">Failed</string>
+    <string name="delivered">Delivered</string>
+    <string name="delivery_in">Delivery in</string>
+    <string name="upto_offer">Up to %s off</string>
+    <string name="offers_for_you">Offers for you</string>
+    <string name="tax_small">Tax</string>
+    <string name="offer_till">Offer Till</string>
+    <string name="hrs">Hrs</string>
+    <string name="min">MIN</string>
+    <string name="sec">Sec</string>
+    <string name="reason_cancel">Reason for cancellation</string>
+    <string name="view_all">View All</string>
+    <string name="choose_option">Choose your option</string>
+    <string name="delivery">Delivery</string>
+    <string name="collect">Collection</string>
+    <string name="transaction_fee">Transaction fee</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="cart_clear_info">Your cart contains items from other restaurant. Would you like to reset your cart for adding items from this restaurant?</string>
+    <string name="no_view_cart">No</string>
+    <string name="yes_start">Yes, Start Afresh</string>
+    <string name="payment_status">Payment Status</string>
+    <string name="cancelled_item">Cancelled item total</string>
+    <string name="need_to_collect">You have to pay : %s</string>
+
+    <string name="add_to_cart">ADD TO CART</string>
+    <string name="okay_got_it">OKAY, GOT IT!</string>
+    <string name="item_available">Item Available</string>
+    <string name="sold_out">SOLD OUT</string>
+    <string name="no_reviews">No Reviews</string>
+    <string name="avaiable">Available</string>
+    <string name="not_avaiable">Not Available</string>
+    <string name="refund_avaiable"> Refund Available</string>
+    <string name="refund_not_avaiable"> Refund Not Available</string>
+    <string name="allowed">Cancellation Available</string>
+    <string name="not_allowed"> Not Allowed</string>
+    <string name="from"> From</string>
+    <string name="rating"> Rating</string>
+
+    <string name="choose_language">Choose Language</string>
+    <string name="english">English</string>
+    <string name="thai">Filipino</string>
+
+    <string name="key_work">Work</string>
+    <string name="add_address">Add Address</string>
+    <string name="others">Other</string>
+    <string name="enter_address_info">We need more information about your address.</string>
+    <string name="enter_location">Enter a location</string>
+
+    <string name="address_information">Address Information*</string>
+    <string name="enter_address_name">Enter Address Name</string>
+    <string name="like_house_shop">Like house,shop etc</string>
+    <string name="no_address_added">Tap + to add your address.</string>
+    <string name="address_mandatory">Address *</string>
+    <string name="saved_locations">Saved Locations</string>
+    <string name="change_shipping_address">Change Shipping Address</string>
+    <string name="ic_menu">Navigation menu</string>
+    <string name="like_building_number">Like a building number,street,landmark</string>
+    <string name="fav_item_not_available">You have not marked any favourite food.</string>
+    <string name="logged_out">You are now logged out.</string>
+    <string name="no_type_restaurant">No Restaurants Found!</string>
+
+
+
+
+
+    <!--  "language_settings":"ตั้งค่าภาษา"-->
+
+    <string name="setting1">Change Password</string>
+    <string name="setting2">About</string>
+    <string name="setting3">Profile</string>
+    <string name="setting4">Language</string>
+    <string name="setting5">Payment Settings</string>
+    <string name="setting6">Terms &amp; Condition</string>
+    <string name="bank_account_details">My Bank Details</string>
+    <string name="no_information">No information found here</string>
+    <string name="hour_min" translatable="false">%1s %2s</string>
+    <string name="order_again">Order again</string>
+    <string name="recent_order">Recent Order</string>
+    <string name="info">Info</string>
+    <string name="send_btn">SEND</string>
+    <string name="add_new_address">ADD NEW ADDRESS</string>
+    <string name="find_my_location">Find My Location</string>
+    <string name="house_building_address">House / Building and Building number</string>
+    <string name="info_to_riders">Information to our riders</string>
+    <string name="name_of_building">Name of the building, House number or Room number</string>
+    <string name="info_riders_hint">Explain for our riders how they can find you</string>
+    <string name="no_items_cart">No items in cart!</string>
+    <string name="landmark">Landmark</string>
+
+
+</resources>
+

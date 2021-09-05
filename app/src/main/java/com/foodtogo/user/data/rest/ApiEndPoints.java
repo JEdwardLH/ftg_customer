@@ -1,0 +1,88 @@
+package com.foodtogo.user.data.rest;
+
+
+class ApiEndPoints {
+    //static final String SERVER_ENDPOINT="http://192.168.1.7/hungry_now/api/";
+    //static final String SERVER_ENDPOINT="http://demo5.pofi5.com/api/";
+    //static final String SERVER_ENDPOINT="https://hungrynow.co.th/api/";
+    static final String SERVER_ENDPOINT="https://foodtogodeliveryph.com/api/";
+
+    static final String CUSTOMER_HOME_PAGE = "customer_home_page";
+    static final String COUNTRY_LIST = "country_list";
+    static final String REGISTER = "registration";
+    static final String CUSTOMER_OTP = "customer_otp";
+    static final String HEMP_CONTENT = "help";
+    static final String TERMS_CONTENT = "terms";
+    static final String LOGIN = "user_login";
+    static final String GOOGLE_LOGIN = "google_login";
+    static final String FACEBOOK_LOGIN = "facebook_login";
+    static final String FORGOT_PASSWORD = "customer_forgot_password";
+    static final String LANDING = "customer/landing_page";
+    static final String CUSTOMER_REFER_FRIEND = "customer/customer_refer_friend";
+    static final String REFER_FRIEND_SEND_MAIL = "customer/refer_friend_send_mail";
+    static final String MY_ACCOUNT_DETAILS = "customer/customer_my_account";
+    static final String SAVE_SHIPPING_ADDRESS = "customer/save_shipping_address";
+    static final String NEAR_BY_RESTAURANT = "customer/restaurant_home_page";
+    static final String RESTAURANT_DETAILS = "customer/restaurant_details";
+    static final String RESTAURANT_CATEGORY_BASED = "customer/category_based_items";
+    static final String ALL_RESTAURANT_LIST = "customer/all_restaurant_list";
+    static final String CATEGORY_BASED_RESTAURANT = "customer/category_based_restaurant";
+    static final String FEATURED_RESTAURANT = "customer/featured_restaurant_list";
+    static final String ITEM_DETAILS = "customer/item_details";
+    static final String ADD_CART = "customer/add_to_cart";
+    static final String MY_CART = "customer/my_cart";
+    static final String REMOVE_FROM_CART = "customer/remove_from_cart";
+    static final String REMOVE_CHOICE = "customer/remove_choice";
+    static final String UPDATE_CHOICE = "customer/add_choice_toCart";
+    static final String ADD_PRE_ORDER = "customer/add_pre_order_date";
+    static final String REMOVE_PRE_ORDER = "customer/remove_pre_order";
+    static final String QTY_UPDATE_CART = "customer/qty_update_cart";
+    static final String CUSTOMER_SHIP_ADDRESS = "customer/customer_ship_address";
+    static final String CUSTOMER_UPDATE_SHIP_ADDRESS = "customer/customer_update_shipadd";
+    static final String CUSTOMER_UPDATE_SHIP_ADDRESS_WITH_OTP = "customer/customer_update_shipadd_with_otp";
+    static final String MY_WALLET = "customer/my_wallet";
+    static final String MY_OFFERS = "customer/my_offers";
+    static final String USED_WALLET_DETAILS = "customer/used_wallet_details";
+    static final String LOYALTY_HISTORY = "customer/loyalty_history";
+    static final String PAYMENT_METHODS = "customer/payment_methods";
+    static final String CHECK_QTY_PAYMENT = "customer/check_qty_payment";
+    static final String COD_CHECKOUT = "customer/cod_checkout";
+    static final String WALLET_CHECKOUT = "customer/wallet_checkout";
+    static final String PAYPAL_CHECKOUT = "customer/paypal_checkout";
+    static final String STRIPE_CHECKOUT = "customer/stripe_checkout";
+    static final String USE_WALLET = "customer/use_wallet";
+    static final String USE_OFFER = "customer/use_coupon";
+    static final String LOG_OUT = "customer/customer_logout";
+    static final String ADD_TO_WISH_LIST = "customer/add_to_wishlist";
+    static final String VIEW_WISH_LIST = "customer/customer_wishlist";
+    static final String MY_ORDERS = "customer/my_orders";
+    static final String REPEAT_ORDER = "customer/repeat_order";
+    static final String MY_ORDER_DETAILS = "customer/my_order_details";
+    static final String CANCEL_ORDER = "customer/cancel_order";
+    static final String STORE_WRITE_REVIEW = "customer/store_write_review";
+    static final String ORDER_WRITE_REVIEW = "customer/order_write_review";
+    static final String PRODUCT_WRITE_REVIEW = "customer/product_write_review";
+    static final String CUSTOMER_INVOICE = "customer/customer_invoice";
+    static final String CUSTOMER_RESET_PASSWORD = "customer/customer_reset_password";
+    static final String CUSTOMER_UPDATE_ACCOUNT = "customer/customer_update_account";
+    static final String CUSTOMER_UPDATE_ACCOUNT_WITH_OTP = "customer/customer_update_account_with_otp";
+    static final String REFUND_DETAILS = "customer/refund_details";
+    static final String MY_REVIEWS = "customer/my_reviews";
+    static final String CUSTOMER_PAYMENT_SETTINGS = "customer/customer_payment_settings";
+    static final String CUSTOMER_UPDATE_PAYMENT_SETTINGS = "customer/customer_update_payment_settings";
+    static final String ORDER_TRACKING = "customer/order_tracking";
+    static final String HOME_SEARCH = "customer/home-search";
+    static final String ITEM_DETAIL_TOPPINGS = "customer/check_exist_cart";
+    static final String DELETE_ADDRESS = "customer/delete_multiple_ship_address";
+    static final String ADD_ADDRESS = "customer/add_multiple_ship_address";
+    static final String SEND_VERIFICATION_CODE = "customer/send_verification_code";
+    static final String CHECK_VERIFICATION_CODE = "customer/check_verification_code";
+    static final String NEW_RESTAURANT_LIST="customer/new_restaurant_list";
+    static final String NEAR_BY_RESTAURANT_LIST="customer/nearby_restaurant_list";
+    static final String TOP_RESTAURANT_LIST="customer/top_restaurant_list";
+
+
+    static final String DIRECTION_API = "https://maps.googleapis.com/maps/api/directions/json";
+    static final String DISTANCE_API = "https://maps.googleapis.com/maps/api/distancematrix/json";
+    static final String ADDRESS_API = "https://maps.googleapis.com/maps/api/geocode/json";
+}

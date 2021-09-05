@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/btn_show_filter">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            style="@style/textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            app:fontFamily="@font/helvetica_ultra_light"
+                            android:text="@string/show_item_with"
+                            android:textColor="@color/edit_txt"
+                            android:textSize="16sp" />
+
+
+                        <CheckBox
+                            android:id="@+id/cb_top_offers"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            app:fontFamily="@font/helvetica_ultra_light"
+                            android:text="@string/top_offers"
+                            android:textColor="@color/edit_txt"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButtonTheme" />
+
+                        <CheckBox
+                            android:id="@+id/cb_special_offers"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            app:fontFamily="@font/helvetica_ultra_light"
+                            android:text="@string/special_offers"
+                            android:textColor="@color/edit_txt"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButtonTheme" />
+
+                        <CheckBox
+                            android:id="@+id/cb_combo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            app:fontFamily="@font/helvetica_ultra_light"
+                            android:text="@string/combo"
+                            android:textColor="@color/edit_txt"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButtonTheme" />
+
+                        <CheckBox
+                            android:id="@+id/cb_halal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            app:fontFamily="@font/helvetica_ultra_light"
+                            android:text="@string/halal"
+                            android:textColor="@color/edit_txt"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButtonTheme" />
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@color/color_top_bar" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            style="@style/textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            app:fontFamily="@font/helvetica_ultra_light"
+                            android:text="@string/time_of_day"
+                            android:textColor="@color/edit_txt"
+                            android:textSize="16sp" />
+
+
+                        <CheckBox
+                            android:id="@+id/break_fast"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            app:fontFamily="@font/helvetica_ultra_light"
+                            android:text="@string/break_fast"
+                            android:textColor="@color/edit_txt"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButtonTheme" />
+
+                        <CheckBox
+                            android:id="@+id/brunch"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            app:fontFamily="@font/helvetica_ultra_light"
+                            android:text="@string/brunch"
+                            android:textColor="@color/edit_txt"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButtonTheme" />
+
+                        <CheckBox
+                            android:id="@+id/lunch"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            app:fontFamily="@font/helvetica_ultra_light"
+                            android:text="@string/lunch"
+                            android:textColor="@color/edit_txt"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButtonTheme" />
+
+                        <CheckBox
+                            android:id="@+id/supper"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            app:fontFamily="@font/helvetica_ultra_light"
+                            android:text="@string/supper"
+                            android:textColor="@color/edit_txt"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButtonTheme" />
+
+                        <CheckBox
+                            android:id="@+id/dinner"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            app:fontFamily="@font/helvetica_ultra_light"
+                            android:text="@string/dinner"
+                            android:textColor="@color/edit_txt"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButtonTheme" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@color/color_top_bar" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:orientation="vertical">
+
+
+                        <RadioGroup
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                style="@style/textView"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                app:fontFamily="@font/helvetica_ultra_light"
+                                android:text="@string/category"
+                                android:textColor="@color/edit_txt"
+                                android:textSize="16sp" />
+
+                            <RadioButton
+                                android:id="@+id/rb_veg"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                app:fontFamily="@font/helvetica_ultra_light"
+                                android:text="@string/veg"
+                                android:textColor="@color/edit_txt"
+                                android:textSize="16sp"
+                                android:theme="@style/RadioButtonTheme" />
+
+                            <RadioButton
+                                android:id="@+id/rb_non_veg"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                app:fontFamily="@font/helvetica_ultra_light"
+                                android:text="@string/non_veg"
+                                android:textColor="@color/edit_txt"
+                                android:textSize="16sp"
+                                android:theme="@style/RadioButtonTheme" />
+
+                            <RadioButton
+                                android:id="@+id/rb_both"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                app:fontFamily="@font/helvetica_ultra_light"
+                                android:text="@string/both"
+                                android:textColor="@color/edit_txt"
+                                android:textSize="16sp"
+                                android:theme="@style/RadioButtonTheme" />
+
+                        </RadioGroup>
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@color/color_top_bar" />
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_show_filter"
+            style="@style/default_button"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_above="@+id/foot"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            app:fontFamily="@font/helvetica_bold"
+            android:text="@string/show_items"
+            android:textSize="18sp" />
+
+        <View
+            android:id="@+id/foot"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_alignParentBottom="true" />
+
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

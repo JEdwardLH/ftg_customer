@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent">
+
+    <RelativeLayout
+        android:id="@+id/rl_store_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_store_name"
+            style="@style/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="7dp"
+            android:layout_toStartOf="@+id/ll_pre_order"
+            android:layout_toLeftOf="@+id/ll_pre_order"
+            app:fontFamily="@font/helvetica_medium"
+            android:gravity="center|start"
+            android:textColor="@color/color_orange"
+            android:textSize="14sp" />
+
+
+        <LinearLayout
+            android:id="@+id/ll_pre_order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/view_clickable_color">
+
+
+            <TextView
+                android:id="@+id/tv_pre_order"
+                style="@style/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="3dp"
+                android:layout_marginRight="3dp"
+                app:fontFamily="@font/helvetica_medium"
+                android:text="@string/pre_order_camel"
+                android:textColor="@color/color_orange"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/iv_pre_order"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_preorder" />
+            <ImageView
+                android:id="@+id/pre_order_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:visibility="visible"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_close_orange" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_sub_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_store_view"
+        android:scrollbars="none" />
+
+</RelativeLayout>

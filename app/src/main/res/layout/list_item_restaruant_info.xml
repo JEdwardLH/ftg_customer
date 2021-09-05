@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/item_restaurant_wt"
+    android:layout_height="@dimen/item_restaurant_ht"
+    android:background="@android:color/transparent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/item_restaurant_wt"
+        android:layout_height="@dimen/item_restaurant_ht"
+        android:layout_gravity="center"
+        app:cardCornerRadius="5dp"
+        app:cardUseCompatPadding="true">
+
+        <ImageView
+            android:id="@+id/itemImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:padding="4dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/app_name"
+            android:src="@mipmap/ic_launcher" />
+
+        <View
+            android:layout_width="match_parent"
+            android:background="@color/black_transperancy"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            style="@style/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textColor="@color/white_transperancy"
+            android:textSize="15sp" />
+
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

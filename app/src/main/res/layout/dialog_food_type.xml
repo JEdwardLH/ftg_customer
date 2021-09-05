@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/color_top_bar" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:fontFamily="@font/helvetica_semi_bold"
+            android:text="@string/show_restaurant_with"
+            android:textColor="@color/edit_txt"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/rb_veg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            app:fontFamily="@font/helvetica_ultra_light"
+            android:text="@string/veg"
+            android:textColor="@color/edit_txt"
+            android:textSize="16sp"
+            android:theme="@style/RadioButtonTheme" />
+
+        <RadioButton
+            android:id="@+id/rb_non_veg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            app:fontFamily="@font/helvetica_ultra_light"
+            android:text="@string/non_veg"
+            android:textColor="@color/edit_txt"
+            android:textSize="16sp"
+            android:theme="@style/RadioButtonTheme" />
+
+        <RadioButton
+            android:id="@+id/rb_both"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            app:fontFamily="@font/helvetica_ultra_light"
+            android:text="@string/both"
+            android:textColor="@color/edit_txt"
+            android:textSize="16sp"
+            android:theme="@style/RadioButtonTheme" />
+
+    </RadioGroup>
+
+</LinearLayout>

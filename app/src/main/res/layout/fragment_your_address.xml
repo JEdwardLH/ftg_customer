@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:background="@color/white"
+    android:background="@android:color/transparent"
+    android:fitsSystemWindows="false">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/appbar"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:id="@+id/ll_shipping_address_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <EditText
+                            android:id="@+id/et_first_name"
+                            style="@style/editText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginTop="16dp"
+                            android:layout_marginEnd="16dp"
+                            android:layout_marginRight="16dp"
+                            android:drawableEnd="@drawable/ic_username"
+                            android:drawableRight="@drawable/ic_username"
+                            android:hint="@string/first_name"
+                            android:inputType="textNoSuggestions|textPersonName"
+                            app:backgroundTint="@color/colorPrimaryDark"
+                            tools:ignore="Autofill" />
+
+                        <EditText
+                            android:id="@+id/et_last_name"
+                            style="@style/editText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="16dp"
+                            android:layout_marginRight="16dp"
+                            android:drawableEnd="@drawable/ic_username"
+                            android:drawableRight="@drawable/ic_username"
+                            android:hint="@string/last_name"
+                            android:inputType="textNoSuggestions|textPersonName"
+                            app:backgroundTint="@color/colorPrimaryDark"
+                            tools:ignore="Autofill" />
+
+                        <EditText
+                            android:id="@+id/et_email_id"
+                            style="@style/editText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="16dp"
+                            android:layout_marginRight="16dp"
+                            android:drawableEnd="@drawable/ic_vec_email"
+                            android:drawableRight="@drawable/ic_vec_email"
+                            android:hint="@string/email_id"
+                            android:inputType="textNoSuggestions|textEmailAddress"
+                            app:backgroundTint="@color/colorPrimaryDark"
+                            tools:ignore="Autofill" />
+
+
+
+                        <TextView
+                            android:id="@+id/tv_address_type"
+                            style="@style/textView"
+                            android:text="@string/nav_home"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="16dp"
+                            android:textSize="16sp"
+                            android:layout_marginRight="16dp"/>
+
+
+                        <EditText
+                            android:id="@+id/et_postal_address"
+                            style="@style/editText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginEnd="16dp"
+                            android:layout_marginRight="16dp"
+                            android:drawableEnd="@drawable/ic_vec_location"
+                            android:drawableRight="@drawable/ic_vec_location"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false"
+                            android:hint="@string/customer_address"
+                            android:inputType="textMultiLine|textPostalAddress"
+                            android:maxLines="5"
+                            android:paddingEnd="6dp"
+                            android:paddingRight="6dp"
+                            android:singleLine="false"
+                            app:backgroundTint="@color/colorPrimaryDark"
+                            tools:ignore="Autofill" />
+
+                        <TextView
+                            android:id="@+id/choose_location"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/activity_horizontal_margin"
+                            android:drawableEnd="@drawable/ic_arrow_right_orange"
+                            android:fontFamily="@font/helvetica_regular"
+                            android:text="@string/saved_locations"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/tv_landmark"
+                            style="@style/textView"
+                            android:text="@string/flat_no_landmark"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="16dp"
+                            android:textSize="16sp"
+                            android:layout_marginRight="16dp"/>
+
+                            <EditText
+                                android:id="@+id/et_landmark"
+                                style="@style/editText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="16dp"
+                                android:layout_marginLeft="16dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginEnd="16dp"
+                                android:layout_marginRight="16dp"
+                                android:drawableEnd="@drawable/ic_vec_location"
+                                android:drawableRight="@drawable/ic_vec_location"
+                                android:hint="@string/flat_no_landmark"
+                                android:inputType="text|textNoSuggestions"
+                                android:focusable="true"
+                                android:maxLines="1"
+                                android:backgroundTint="@color/colorAccent"
+                                android:paddingEnd="6dp"
+                                android:paddingRight="6dp"
+                                android:singleLine="true"
+                                tools:ignore="Autofill" />
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="16dp"
+                            android:layout_marginRight="16dp">
+
+                            <EditText
+                                android:id="@+id/et_country_code"
+                                style="@style/editText"
+                                android:layout_width="72dp"
+                                android:layout_height="wrap_content"
+                                android:drawableStart="@drawable/philippines"
+                                android:focusable="false"
+                                android:focusableInTouchMode="false"
+                                android:gravity="center"
+                                android:hint="@string/default_country_code"
+                                android:clickable="false"
+                                android:inputType="textNoSuggestions|text"
+                                app:backgroundTint="@color/colorPrimaryDark"
+                                tools:ignore="Autofill" />
+
+
+                            <EditText
+                                android:id="@+id/et_mobile_number"
+                                style="@style/editText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:digits="0123456789"
+                                android:drawableEnd="@drawable/ic_vec_mobile"
+                                android:drawableRight="@drawable/ic_vec_mobile"
+                                android:hint="@string/mobile_number"
+                                android:inputType="textNoSuggestions|number"
+                                app:backgroundTint="@color/colorPrimaryDark"
+                                tools:ignore="Autofill" />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginTop="10dp"
+                            android:visibility="gone"
+                            android:layout_marginEnd="16dp"
+                            android:layout_marginRight="16dp">
+
+                            <EditText
+                                android:id="@+id/et_sub_country_code"
+                                style="@style/editText"
+                                android:layout_width="72dp"
+                                android:layout_height="wrap_content"
+                                android:clickable="false"
+                                android:drawableEnd="@drawable/ic_arrow_drop_down"
+                                android:focusable="false"
+                                android:focusableInTouchMode="false"
+                                android:gravity="center"
+                                android:hint="@string/default_country_code"
+                                android:inputType="textNoSuggestions|text"
+                                app:backgroundTint="@color/colorPrimaryDark"
+                                tools:ignore="Autofill" />
+
+                            <EditText
+                                android:id="@+id/et_alternate_number"
+                                style="@style/editText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:digits="0123456789"
+                                android:drawableEnd="@drawable/ic_vec_mobile"
+                                android:hint="@string/alternative_number"
+                                android:inputType="textNoSuggestions|number"
+                                app:backgroundTint="@color/colorPrimaryDark"
+                                tools:ignore="Autofill" />
+
+                        </LinearLayout>
+
+                        <Spinner
+                            android:id="@+id/spinner_country"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginEnd="16dp"
+                            android:layout_marginRight="16dp"
+                            android:visibility="invisible" />
+
+                        <Spinner
+                            android:id="@+id/spinner_sub_country"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginEnd="16dp"
+                            android:layout_marginRight="16dp"
+                            android:visibility="invisible" />
+
+                        <TextView
+                            style="@style/textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="16dp"
+                            android:layout_marginRight="16dp"
+                            android:text="@string/first_name"
+                            android:visibility="gone"
+                            app:fontFamily="@font/helvetica_regular" />
+
+                        <TextView
+                            style="@style/textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="16dp"
+                            android:layout_marginRight="16dp"
+                            android:text="@string/last_name"
+                            android:visibility="gone"
+                            app:fontFamily="@font/helvetica_regular" />
+
+                        <TextView
+                            style="@style/textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="16dp"
+                            android:layout_marginRight="16dp"
+                            android:text="@string/email_id"
+                            android:visibility="gone"
+                            app:fontFamily="@font/helvetica_regular" />
+
+                        <TextView
+                            style="@style/textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="16dp"
+                            android:layout_marginRight="16dp"
+                            android:text="@string/customer_phone"
+                            android:visibility="gone"
+                            app:fontFamily="@font/helvetica_regular" />
+
+                        <TextView
+                            style="@style/textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="16dp"
+                            android:layout_marginRight="16dp"
+                            android:text="@string/alternative_number"
+                            android:visibility="gone"
+                            app:fontFamily="@font/helvetica_regular" />
+
+                        <TextView
+                            style="@style/textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="16dp"
+                            android:layout_marginRight="16dp"
+                            android:text="@string/customer_address"
+                            android:visibility="gone"
+                            app:fontFamily="@font/helvetica_regular" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="32dp"
+                        android:layout_marginLeft="32dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginEnd="32dp"
+                        android:layout_marginRight="32dp"
+                        android:layout_marginBottom="32dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/btn_continue"
+                            style="@style/default_button"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:text="@string/save"
+                            android:textSize="18sp"
+                            app:fontFamily="@font/helvetica_bold" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_error"
+            style="@style/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:maxLines="5"
+            android:singleLine="false"
+            android:textColor="@color/cart_title_clr"
+            android:textSize="20sp"
+            app:fontFamily="@font/helvetica_light" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+    </RelativeLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

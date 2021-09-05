@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="1dp"
+    android:background="@android:color/transparent">
+
+    <TextView
+        android:id="@+id/tv_rating"
+        style="@style/textView"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/round_rating"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/tv_rating"
+        android:layout_toRightOf="@+id/tv_rating"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_user_name"
+            style="@style/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|start"
+            android:paddingStart="5dp"
+            app:fontFamily="@font/helvetica_light"
+            android:paddingLeft="5dp"
+            android:paddingEnd="5dp"
+            android:paddingRight="5dp"
+            android:textColor="@color/edit_txt"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/tv_comments"
+            style="@style/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:fontFamily="@font/helvetica_light"
+            android:gravity="center|start"
+            android:maxLines="2"
+            android:layout_marginTop="0.5dp"
+            android:paddingStart="5dp"
+            android:paddingLeft="5dp"
+            android:paddingEnd="5dp"
+            android:singleLine="false"
+            android:textColor="@color/edit_txt"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

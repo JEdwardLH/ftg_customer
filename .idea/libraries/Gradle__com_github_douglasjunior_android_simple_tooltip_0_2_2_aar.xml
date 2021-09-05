@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.douglasjunior:android-simple-tooltip:0.2.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f1313b6ba943ce40c7d8bf96acfb86fb/jetified-android-simple-tooltip-0.2.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f1313b6ba943ce40c7d8bf96acfb86fb/jetified-android-simple-tooltip-0.2.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f1313b6ba943ce40c7d8bf96acfb86fb/jetified-android-simple-tooltip-0.2.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e4b13e07d3f3feb38aea368a13d95d0f/jetified-android-simple-tooltip-0.2.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e4b13e07d3f3feb38aea368a13d95d0f/jetified-android-simple-tooltip-0.2.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e4b13e07d3f3feb38aea368a13d95d0f/jetified-android-simple-tooltip-0.2.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cdb2cb741fe1fa161a5359a1afa642d3/jetified-android-simple-tooltip-0.2.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cdb2cb741fe1fa161a5359a1afa642d3/jetified-android-simple-tooltip-0.2.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cdb2cb741fe1fa161a5359a1afa642d3/jetified-android-simple-tooltip-0.2.2/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.douglasjunior/android-simple-tooltip/0.2.2/7cd297cc8d1cf17ae52144c3bd03186c6cda435/android-simple-tooltip-0.2.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.douglasjunior/android-simple-tooltip/0.2.2/9af72867fe7f2a319ac93b94e542917fbe7df8d1/android-simple-tooltip-0.2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8413D1</color>
+    <color name="colorPrimaryDark">#8413D1</color>
+    <color name="colorAccent">#8413D1</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00ffffff</color>
+
+    <color name="circle_color_default_gray">#BDBDBD</color>
+    <color name="black">#000000</color>
+    <color name="default_text_color">#80000000</color>
+    <color name="edit_txt">#282828</color>
+    <color name="edit_txt_hint">#656262</color>
+
+    <color name="seperator_div">#E8E8E8</color>
+    <color name="suggestion_title">#212121</color>
+    <color name="md_greycol_600">#757575</color>
+
+    <color name="colorScreen">#85000000</color>
+    <color name="colorScreenDark">#C9000000</color>
+
+</resources>

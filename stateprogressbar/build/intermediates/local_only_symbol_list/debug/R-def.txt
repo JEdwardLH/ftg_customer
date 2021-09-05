@@ -1,0 +1,38 @@
+R_DEF: Internal format may change without notice
+local
+attr? spb_animateToCurrentProgressState
+attr? spb_animationDuration
+attr? spb_animationStartDelay
+attr? spb_checkStateCompleted
+attr? spb_currentStateDescriptionColor
+attr? spb_currentStateNumber
+attr? spb_descriptionLinesSpacing
+attr? spb_descriptionTopSpaceDecrementer
+attr? spb_descriptionTopSpaceIncrementer
+attr? spb_enableAllStatesCompleted
+attr? spb_justifyMultilineDescription
+attr? spb_maxDescriptionLines
+attr? spb_maxStateNumber
+attr? spb_stateBackgroundColor
+attr? spb_stateDescriptionColor
+attr? spb_stateDescriptionSize
+attr? spb_stateForegroundColor
+attr? spb_stateLineThickness
+attr? spb_stateNumberBackgroundColor
+attr? spb_stateNumberForegroundColor
+attr? spb_stateNumberIsDescending
+attr? spb_stateSize
+attr? spb_stateTextSize
+color background_color
+color background_text_color
+color foreground_color
+color foreground_text_color
+id five
+id four
+id one
+id three
+id two
+string app_name
+string check_icon
+string failed_icon
+styleable StateProgressBar spb_stateBackgroundColor spb_stateForegroundColor spb_stateNumberBackgroundColor spb_stateNumberForegroundColor spb_currentStateDescriptionColor spb_stateDescriptionColor spb_stateSize spb_stateTextSize spb_stateDescriptionSize spb_stateLineThickness spb_checkStateCompleted spb_stateNumberIsDescending spb_animateToCurrentProgressState spb_enableAllStatesCompleted spb_descriptionTopSpaceDecrementer spb_descriptionTopSpaceIncrementer spb_animationDuration spb_animationStartDelay spb_justifyMultilineDescription spb_descriptionLinesSpacing spb_maxDescriptionLines spb_currentStateNumber spb_maxStateNumber

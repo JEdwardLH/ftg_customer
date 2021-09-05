@@ -1,0 +1,915 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+    <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:hotfix" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7403aee9-af72-48fc-9dd0-e17560bda437" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/debug/app-debug.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/debug/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/google-services.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/release/app-release.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/release/app-release.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/release/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/release/output.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/release/release/app-release.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/release/release/output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/hungrynow/customer/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/BaseApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/BaseView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/base/AppBaseGlideModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/base/AppConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/base/BaseActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/base/BaseDialogFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/base/BaseFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/base/LoadingViewHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/base/LocaleHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/cardutils/CreditCardEditText.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/cardutils/CreditCardPatterns.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/cardutils/CreditCardTextWatcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/cardutils/CreditCardTypeEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/cardutils/StringUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/data/rest/ApiClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/data/rest/ApiEndPoints.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/data/rest/ApiInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/data/rest/ApiInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/data/rest/ApiKeys.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/data/source/AppDataSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/data/source/AppRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/data/source/sharedpreference/AppPreferenceDataSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/data/source/sharedpreference/PreferenceKeys.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/firebase/MyFirebaseMessagingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/BaseResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/ErrorResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/accountdetails/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/allrestaurant/AllRestaurantResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/allrestaurant/AllRestautrantDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/allrestaurant/CategoryList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/allrestaurant/TabbedMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/categorybased/CategoryBasedRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/changepassword/ChangePasswordRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/country/CountryDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/country/CountryList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/directions/Bounds.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/directions/DirectionResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/directions/Distance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/directions/DistanceResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/directions/Distance_.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/directions/Duration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/directions/Duration_.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/directions/Element.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/directions/EndLocation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/directions/EndLocation_.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/directions/GeocodedWaypoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/directions/Leg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/directions/Northeast.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/directions/OverviewPolyline.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/directions/Polyline.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/directions/Route.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/directions/Row.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/directions/Southwest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/directions/StartLocation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/directions/StartLocation_.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/directions/Step.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/forgotpassword/ForgotPasswordRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/forgotpassword/ForgotPasswordResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/geocodeaddress/AddressComponent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/geocodeaddress/Bounds.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/geocodeaddress/GeoCodeAddress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/geocodeaddress/Geometry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/geocodeaddress/Location.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/geocodeaddress/Northeast.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/geocodeaddress/Northeast_.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/geocodeaddress/PlusCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/geocodeaddress/PlusCode_.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/geocodeaddress/Result.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/geocodeaddress/Southwest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/geocodeaddress/Southwest_.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/geocodeaddress/Viewport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/home/AllRestaurant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/home/AllRestaurantDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/home/HomeRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/home/HomeResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/home/HomeSearchChild.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/home/HomeSearchHead.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/home/HomeSearchRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/home/HomeSearchResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/home/NavDrawerItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/home/Offers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/home/RecentOrders.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/home/RestaurantDataModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/home/RestaurantDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/invoice/Choice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/invoice/CustomerDetailArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/invoice/InvoiceDetailsResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/invoice/ItemList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/invoice/OrderDetailArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/invoice/RequestInvoice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/itemdetails/AddFavourites.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/itemdetails/Choice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/itemdetails/ItemReviews.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/itemdetails/ItemSpecificatioon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/itemdetails/ItemtInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/itemdetails/RelatedItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/itemdetails/RequestItemDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/itemdetails/RequestToppingDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/itemdetails/ResponseItemDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/itemdetails/ResponseToppingQuantity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/landing/BannerDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/landing/GroceryIcon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/landing/LandingResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/landing/LanguageRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/landing/RestaurantIcon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/login/LoginFacebookRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/login/LoginGoogleRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/login/LoginRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/login/LoginResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/login/LogoutRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/mycart/AddedItemDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/mycart/CartChoice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/mycart/CartDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/mycart/CartItemRemoveRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/mycart/CartRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/mycart/CartResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/mycart/ItemChoiceRemoveRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/mycart/ItemQuantityUpdateRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/mycart/PreOrderRemoveRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/mycart/PreOrderRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/mycart/StoreLocations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/myreviews/ItemReviewList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/myreviews/MyReviewRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/myreviews/MyReviewResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/myreviews/OrderReviewList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/myreviews/RestReviewList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/offers/OffersData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/offers/OffersResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/orderdetails/CancelOrderRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/orderdetails/CancelledDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/orderdetails/ChoiceList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/orderdetails/FulfilledDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/orderdetails/OrderDetailRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/orderdetails/OrderDetailResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/orderdetails/PendingDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/orderhistory/OrderArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/orderhistory/OrderHistoryRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/orderhistory/OrderHistoryResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/orderhistory/RepeatOrderRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/orderhistory/StoreDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/payment/CheckQuantityResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/payment/CouponList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/payment/OrderDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/payment/PaymentMethodResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/payment/PaymentMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/payment/PaymentResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/payment/RequestCashOnDelivery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/payment/RequestPayPal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/payment/RequestStripe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/payment/ShippingDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/payment/UseWallet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/payment/UseWalletResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/paymentsettings/PaymentSettingResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/paymentsettings/PaymentSettingUpdateRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/profile/ProfileUpdateResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/profile/UpdateProfileRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/refunddetails/RefundDetailResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/register/RegisterRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/register/RegisterResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/restaurant/CategoryBasedItems.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/restaurant/CategoryList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/restaurant/ItemIncudes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/restaurant/ItemList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/restaurant/RequestAddCart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/restaurant/RequestRestaurantBasedItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/restaurant/RequestRestaurantDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/restaurant/ResponseAddCart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/restaurant/RestaurantDetailResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/restaurant/RestaurantInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/restaurant/RestaurantReview.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/restaurant/SubCategoryList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/restaurant/WorkingHour.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/reviews/PostItemReview.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/reviews/PostOrderReview.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/reviews/PostStoreReview.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/settings/MenuSettings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/shippingaddress/AddressRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/shippingaddress/CheckVerificationRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/shippingaddress/DeleteRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/shippingaddress/MultiAddressRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/shippingaddress/MultiLocation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/shippingaddress/OtpResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/shippingaddress/SendEmailVerificationCodeRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/shippingaddress/ShippingAddressData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/shippingaddress/ShippingAddressRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/shippingaddress/ShippingAddressResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/splash/ImageResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/support/Content.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/support/Support.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/track/CustomerDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/track/DeliveryPersonDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/track/OrderStatusDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/track/RestaurantDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/track/TrackDetailResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/track/TrackDetailsRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/wallet/Reward.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/wallet/RewardRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/wallet/RewardsResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/wallet/UsedDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/wallet/WalletBalanceResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/wishlist/FavouriteRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/wishlist/FavouriteResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/model/wishlist/ProductWishList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/mqtt/MQTTActionListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/mqtt/MQTTCallBack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/mqtt/MQTTServerCallBack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/mqtt/MQTTServerClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/DialogActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/about/fragment/AboutFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/about/mvp/AboutContractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/about/mvp/AboutModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/about/mvp/AboutPresenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/address/activity/AddAddress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/address/mvp/AddAddressContractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/address/mvp/AddAddressModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/address/mvp/AddAddressPresenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/allrestaurant/activity/AllRestaurantActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/allrestaurant/adapter/AllRestaurantAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/allrestaurant/adapter/FilterAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/allrestaurant/adapter/TabbedAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/allrestaurant/enums/CategoryType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/allrestaurant/fragment/RestaurantFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/allrestaurant/interfaces/OnApplyFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/allrestaurant/interfaces/RestaurantDetailListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/allrestaurant/interfaces/SelectionListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/allrestaurant/interfaces/TabClickListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/allrestaurant/mvp/AllRestaurantContractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/allrestaurant/mvp/AllRestaurantModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/allrestaurant/mvp/AllRestaurantPresenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/allrestaurant/viewholder/AvailableTimeViewHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/allrestaurant/viewholder/CategoryViewHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/allrestaurant/viewholder/FootTypeViewHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/common/Common.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/forgotpassword/activity/ForgotPassword.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/forgotpassword/mvp/ForgotPasswordContractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/forgotpassword/mvp/ForgotPasswordModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/forgotpassword/mvp/ForgotPasswordPresenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/help/fragment/HelpFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/help/mvp/HelpContractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/help/mvp/HelpModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/help/mvp/HelpPresenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/home/activity/Home.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/home/adapter/CategoriesDataAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/home/adapter/DemoInfiniteAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/home/adapter/HomeDataModelAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/home/adapter/NavigationDrawerAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/home/adapter/RestaurantDataAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/home/adapter/RestaurantPopularDataAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/home/adapter/SearchAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/home/fragment/HomeFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/home/fragment/SpecialFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/home/interfaces/MoreClickLister.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/home/interfaces/RestaurantClickListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/home/mvp/HomeActivityContractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/home/mvp/HomeActivityModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/home/mvp/HomeActivityPresenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/home/mvp/HomeContractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/home/mvp/HomeModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/home/mvp/HomePresenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/home/pager/Indicator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/home/pager/InfinitePager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/invoice/activity/InvoiceDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/invoice/adapter/InvoiceDataModelAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/invoice/adapter/InvoiceItemAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/invoice/interfaces/ClickStoreListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/invoice/mvp/InvoiceContractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/invoice/mvp/InvoiceModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/invoice/mvp/InvoicePresenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/login/activity/Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/login/mvp/LoginContractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/login/mvp/LoginModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/login/mvp/LoginPresenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/manageaddress/activity/ManageAddressActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/manageaddress/adapter/ManageAddressAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/manageaddress/mvp/ManageAddressContractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/manageaddress/mvp/ManageAddressModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/manageaddress/mvp/ManageAddressPresenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/mycart/adapter/CartHeaderItemAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/mycart/adapter/CartItemAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/mycart/adapter/ChoiceChangeAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/mycart/fragment/MyCartFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/mycart/interfaces/ChoiceListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/mycart/interfaces/MyCartListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/mycart/mvp/MyCartContractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/mycart/mvp/MyCartModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/mycart/mvp/MyCartPresenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/myoffers/adapter/MyOffersAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/myoffers/fragment/MyOffersFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/myoffers/mvp/OffersContractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/myoffers/mvp/OffersModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/myoffers/mvp/OffersPresenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/myreviews/adapter/ReviewItemAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/myreviews/adapter/ReviewOrderAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/myreviews/adapter/ReviewRestaurantAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/myreviews/fragment/MyReviewsFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/myreviews/fragment/MyReviewsItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/myreviews/fragment/MyReviewsOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/myreviews/fragment/MyReviewsRestaurant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/myreviews/interfaces/OnChildItemListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/myreviews/interfaces/OnChildOrderListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/myreviews/interfaces/OnChildRestaurantListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/myreviews/interfaces/ReviewItemClickListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/myreviews/interfaces/ReviewRestaurantClickListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/myreviews/mvp/MyReviewsContractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/myreviews/mvp/MyReviewsModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/myreviews/mvp/MyReviewsPresenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/myrewards/adapter/ListingNavigationAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/myrewards/adapter/RewardAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/myrewards/fragment/MyRewardsFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/myrewards/fragment/TotalRewards.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/myrewards/mvp/RewardsContractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/myrewards/mvp/RewardsModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/myrewards/mvp/RewardsPresenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/myrewards/mvp/TotalRewardsContractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/myrewards/mvp/TotalRewardsModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/myrewards/mvp/TotalRewardsPresenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/orderhistory/adapter/OrderHistoryItemAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/orderhistory/adapter/TrackRestaurantAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/orderhistory/fragment/OrderHistoryFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/orderhistory/interfaces/OrderHistoryListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/orderhistory/interfaces/TrackListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/orderhistory/mvp/OrderHistoryContractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/orderhistory/mvp/OrderHistoryModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/orderhistory/mvp/OrderHistoryPresenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/orders/activity/OrderActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/orders/adapter/CancelledItemAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/orders/adapter/FullFilledItemAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/orders/adapter/OrderHistoryMenuAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/orders/adapter/PendingItemAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/orders/fragment/CancelledFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/orders/fragment/FullFilledFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/orders/fragment/PendingFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/orders/interfaces/CancelledListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/orders/interfaces/FullFilledListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/orders/interfaces/PendingListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/orders/mvp/FullFilledOrderContractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/orders/mvp/FullFilledOrderModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/orders/mvp/FullFilledOrderPresenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/orders/mvp/OrderContractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/orders/mvp/OrderModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/orders/mvp/OrderPresenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/orders/mvp/PendingOrderContractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/orders/mvp/PendingOrderModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/orders/mvp/PendingOrderPresenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/payment/activity/Payment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/payment/adapter/CouponAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/payment/enums/OfferType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/payment/fragment/CouponFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/payment/interfaces/OnApplyItemListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/payment/interfaces/OnApplyListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/payment/mvp/PaymentContractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/payment/mvp/PaymentModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/payment/mvp/PaymentPresenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/payment/paypal/PayPalUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/paymentsettings/fragment/PaymentSettings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/paymentsettings/mvp/PaymentSettingsContractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/paymentsettings/mvp/PaymentSettingsModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/paymentsettings/mvp/PaymentSettingsPresenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/profile/fragment/ProfileFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/profile/mvp/ProfileContractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/profile/mvp/ProfileModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/profile/mvp/ProfilePresenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/referfriend/fragment/ReferFriendFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/referfriend/mvp/ReferFriendContractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/referfriend/mvp/ReferFriendModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/referfriend/mvp/ReferFriendPresenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/refunddetails/activity/RefundDetailsActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/refunddetails/adapter/CompletedRefundAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/refunddetails/adapter/PendingRefundAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/refunddetails/adapter/RefundMenuAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/refunddetails/fragment/CompletedRefund.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/refunddetails/fragment/PendingRefund.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/refunddetails/interfaces/CompletedRefundListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/refunddetails/mvp/RefundDetailsContractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/refunddetails/mvp/RefundDetailsModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/refunddetails/mvp/RefundDetailsPresenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/register/activity/Register.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/register/adapter/CountryAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/register/mvp/RegisterContractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/register/mvp/RegisterModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/register/mvp/RegisterPresenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/settings/activity/SettingActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/settings/activity/SettingMenuActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/settings/adapter/SettingsAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/settings/interfaces/ItemListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/settings/mvp/SettingsContractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/settings/mvp/SettingsModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/settings/mvp/SettingsPresenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/shippingaddress/activity/ShippingAddress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/shippingaddress/adapter/CountryAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/shippingaddress/adapter/RestaurantAddressAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/shippingaddress/mvp/ShippingAddressContractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/shippingaddress/mvp/ShippingAddressModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/shippingaddress/mvp/ShippingAddressPresenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/splash/activity/Splash.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/splash/mvp/SplashContractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/splash/mvp/SplashPresenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/track/activity/LiveTrackActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/track/adapter/DriverInfoWindowAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/track/adapter/TrackAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/track/adapter/TrackingDividerItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/track/fragment/DriverInfoFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/track/fragment/LiveTrackFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/track/interfaces/DriverInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/track/mvp/TrackContractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/track/mvp/TrackModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/track/mvp/TrackPresenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/viewall/activity/ViewAll.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/viewall/adapter/ViewAllDataAdapters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/viewall/interfaces/ItemDetailListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/viewall/mvp/ViewAllContractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/viewall/mvp/ViewAllModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/viewall/mvp/ViewAllPresenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/viewallreviews/activity/ViewAllReviews.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/viewallreviews/adapter/AllItemRatingAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/viewallreviews/adapter/AllRestaurantRatingAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/viewallreviews/mvp/AllReviewContractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/viewallreviews/mvp/AllReviewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/viewallreviews/mvp/AllReviewPresenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/viewitemdetails/activity/ViewItemDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/viewitemdetails/adapter/ChoiceAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/viewitemdetails/adapter/ItemSliderAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/viewitemdetails/adapter/RelatedRestaurantDataAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/viewitemdetails/interfaces/AddRelatedItemCartListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/viewitemdetails/interfaces/ChoiceItemListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/viewitemdetails/mvp/ViewItemDetailsContractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/viewitemdetails/mvp/ViewItemDetailsModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/viewitemdetails/mvp/ViewItemDetailsPresenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/viewitemdetails/service/ImageLoadingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/viewrestaurant/activity/ViewRestaurant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/viewrestaurant/activity/WorkingsHours.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/viewrestaurant/adapter/CategoryBasedItemAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/viewrestaurant/adapter/FilterMenuAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/viewrestaurant/adapter/RatingAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/viewrestaurant/adapter/RestaurantCategoryAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/viewrestaurant/adapter/RestaurantSubCategoryAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/viewrestaurant/adapter/WorkingHoursAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/viewrestaurant/fragment/FilterFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/viewrestaurant/fragment/ItemFilterFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/viewrestaurant/fragment/SortByFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/viewrestaurant/interfaces/AddCartListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/viewrestaurant/interfaces/CategoryClickListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/viewrestaurant/interfaces/ItemFilterListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/viewrestaurant/interfaces/OnCompleteListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/viewrestaurant/interfaces/SortByListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/viewrestaurant/mvp/ViewRestaurantContractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/viewrestaurant/mvp/ViewRestaurantModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/viewrestaurant/mvp/ViewRestaurantPresenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/wallet/adapter/TotalWalletAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/wallet/adapter/UsedWalletAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/wallet/fragment/WalletFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/wallet/mvp/WalletContractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/wallet/mvp/WalletModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/wallet/mvp/WalletPresenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/wallet/totalwallet/fragment/TotalWallet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/wallet/totalwallet/mvp/TotalWalletContractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/wallet/totalwallet/mvp/TotalWalletModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/wallet/totalwallet/mvp/TotalWalletPresenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/wallet/usedwallet/fragment/UsedWallet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/wallet/usedwallet/mvp/UsedWalletContractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/wallet/usedwallet/mvp/UsedWalletModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/wallet/usedwallet/mvp/UsedWalletPresenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/wishlist/adapter/WishListItemAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/wishlist/fragment/MyWishList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/wishlist/interfaces/MyWishListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/wishlist/mvp/WishListContractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/wishlist/mvp/WishListModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/wishlist/mvp/WishListPresenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/youraddress/fragment/YourAddressFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/youraddress/mvp/YourAddressContractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/youraddress/mvp/YourAddressModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/ui/youraddress/mvp/YourAddressPresenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/util/AppUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/util/BadgeUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/util/BaseRecyclerView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/util/CenteredTitleToolbar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/util/ControllableAppBarLayout.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/util/ConversionUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/util/DataUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/util/GlideUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/util/ImageUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/util/NetworkUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/util/PaginationScrollListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/util/PermissionUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/util/PolyUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/util/PreferenceUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/util/ViewUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hungrynow/customer/util/WrapContentHeightViewPager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_noti_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_noti_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_noti_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_noti_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/noti_small_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/noti_small_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_noti_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_noti_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_noti_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_noti_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/app_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/app_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/image_placeholder_medium.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/image_placeholder_small.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/placeholder_small.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/placeholder_small.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/all_restaurant_llist_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/all_restaurant_llist_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_shipping_address.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_shipping_address.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_view_item_details.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_view_item_details.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/dialog_item_filter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_item_filter.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_wallet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_wallet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_your_address.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_your_address.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-th/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-th/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/progress_bar_style_color.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/xml/progress_bar_style_color.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/hungrynow/customer/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/key/mikaelcustomer.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nibo_library/src/main/java/com/alium/nibo/placepicker/NiboPickerFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/nibo_library/src/main/java/com/alium/nibo/placepicker/NiboPickerFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nibo_library/src/main/java/com/alium/nibo/repo/location/GeoCodingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/nibo_library/src/main/java/com/alium/nibo/repo/location/GeoCodingRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nibo_library/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nibo_library/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nibo_library/src/main/res/values/google_maps_api.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nibo_library/src/main/res/values/google_maps_api.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="foodtogocustomer" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="foodtogocustomer" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="foodtogocustomer" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="android" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="foodtogocustomer" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="install" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="$PROJECT_DIR$/../../keystore/customer/custoner.jks" />
+    <option name="KEY_ALIAS" value="FoodToGo" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1fPa0Vb7u7nHelVC78xUN3L0UwY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ApkExportedModule" value="foodtogocustomer.app" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_4_XL_API_30" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-12-08T00:55:34.469Z" />
+    <property name="ExportApk.ApkPath" value="$PROJECT_DIR$/app" />
+    <property name="ExportApk.BuildVariants" value="release" />
+    <property name="ExportApk.SignV1" value="true" />
+    <property name="ExportApk.SignV2" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi" />
+    <property name="memory.settings.postsync.last.time.stamp" value="1613090700014" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-hdpi" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android App.app">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="foodtogocustomer.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/jhernandez/hungrynow-android/app/build.gradle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app/build.gradle" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="hungrynow-android [signingReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="signingReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.hungrynow-android [signingReport]" />
+        <item itemvalue="Gradle./Users/jhernandez/hungrynow-android/app/build.gradle" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructuralSearchPlugin">
+    <replaceConfiguration name="user defined" created="1602335845132" text="e21c26" recursive="false" caseInsensitive="true" type="JAVA" pattern_context="default" scope_type="PROJECT" scope_descriptor="" reformatAccordingToStyle="false" shortenFQN="false" replacement="8413D1" history="1">
+      <constraint name="__context__" within="" contains="" />
+    </replaceConfiguration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7403aee9-af72-48fc-9dd0-e17560bda437" name="Default Changelist" comment="" />
+      <created>1596121959916</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596121959916</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="360" y="190" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607356604072">
+      <screen x="0" y="25" width="1792" height="1019" />
+    </state>
+    <state x="360" y="190" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1792.1019@0.25.1792.1019" timestamp="1607356604072" />
+    <state width="927" height="505" key="#com.intellij.structuralsearch.plugin.ui.StructuralReplaceDialog" timestamp="1602335845121">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state width="927" height="505" key="#com.intellij.structuralsearch.plugin.ui.StructuralReplaceDialog/0.23.1680.952@0.23.1680.952" timestamp="1602335845121" />
+    <state x="455" y="246" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog" timestamp="1602335845120">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state x="455" y="246" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog/0.23.1680.952@0.23.1680.952" timestamp="1602335845120" />
+    <state width="1750" height="271" key="GridCell.Tab.0.bottom" timestamp="1607928968299">
+      <screen x="0" y="25" width="1792" height="1013" />
+    </state>
+    <state width="1638" height="255" key="GridCell.Tab.0.bottom/0.23.1680.952@0.23.1680.952" timestamp="1603270868297" />
+    <state width="1638" height="253" key="GridCell.Tab.0.bottom/0.23.1680.953@0.23.1680.953" timestamp="1605197643810" />
+    <state width="1638" height="253" key="GridCell.Tab.0.bottom/0.23.1680.954@0.23.1680.954" timestamp="1605195274921" />
+    <state width="1638" height="253" key="GridCell.Tab.0.bottom/0.23.1680.956@0.23.1680.956" timestamp="1605188440887" />
+    <state width="1750" height="271" key="GridCell.Tab.0.bottom/0.25.1792.1012@0.25.1792.1012" timestamp="1607914884855" />
+    <state width="1750" height="271" key="GridCell.Tab.0.bottom/0.25.1792.1013@0.25.1792.1013" timestamp="1607928968299" />
+    <state width="1750" height="273" key="GridCell.Tab.0.bottom/0.25.1792.1015@0.25.1792.1015" timestamp="1607789329704" />
+    <state width="1750" height="213" key="GridCell.Tab.0.bottom/0.25.1792.1017@0.25.1792.1017" timestamp="1607789230574" />
+    <state width="1750" height="273" key="GridCell.Tab.0.bottom/0.25.1792.1019@0.25.1792.1019" timestamp="1607358819900" />
+    <state width="1750" height="271" key="GridCell.Tab.0.center" timestamp="1607928968299">
+      <screen x="0" y="25" width="1792" height="1013" />
+    </state>
+    <state width="1638" height="255" key="GridCell.Tab.0.center/0.23.1680.952@0.23.1680.952" timestamp="1603270868296" />
+    <state width="1638" height="253" key="GridCell.Tab.0.center/0.23.1680.953@0.23.1680.953" timestamp="1605197643809" />
+    <state width="1638" height="253" key="GridCell.Tab.0.center/0.23.1680.954@0.23.1680.954" timestamp="1605195274920" />
+    <state width="1638" height="253" key="GridCell.Tab.0.center/0.23.1680.956@0.23.1680.956" timestamp="1605188440886" />
+    <state width="1750" height="271" key="GridCell.Tab.0.center/0.25.1792.1012@0.25.1792.1012" timestamp="1607914884855" />
+    <state width="1750" height="271" key="GridCell.Tab.0.center/0.25.1792.1013@0.25.1792.1013" timestamp="1607928968299" />
+    <state width="1750" height="273" key="GridCell.Tab.0.center/0.25.1792.1015@0.25.1792.1015" timestamp="1607789329704" />
+    <state width="1750" height="213" key="GridCell.Tab.0.center/0.25.1792.1017@0.25.1792.1017" timestamp="1607789230572" />
+    <state width="1750" height="273" key="GridCell.Tab.0.center/0.25.1792.1019@0.25.1792.1019" timestamp="1607358819900" />
+    <state width="1750" height="271" key="GridCell.Tab.0.left" timestamp="1607928968299">
+      <screen x="0" y="25" width="1792" height="1013" />
+    </state>
+    <state width="1638" height="255" key="GridCell.Tab.0.left/0.23.1680.952@0.23.1680.952" timestamp="1603270868295" />
+    <state width="1638" height="253" key="GridCell.Tab.0.left/0.23.1680.953@0.23.1680.953" timestamp="1605197643808" />
+    <state width="1638" height="253" key="GridCell.Tab.0.left/0.23.1680.954@0.23.1680.954" timestamp="1605195274920" />
+    <state width="1638" height="253" key="GridCell.Tab.0.left/0.23.1680.956@0.23.1680.956" timestamp="1605188440886" />
+    <state width="1750" height="271" key="GridCell.Tab.0.left/0.25.1792.1012@0.25.1792.1012" timestamp="1607914884854" />
+    <state width="1750" height="271" key="GridCell.Tab.0.left/0.25.1792.1013@0.25.1792.1013" timestamp="1607928968299" />
+    <state width="1750" height="273" key="GridCell.Tab.0.left/0.25.1792.1015@0.25.1792.1015" timestamp="1607789329704" />
+    <state width="1750" height="213" key="GridCell.Tab.0.left/0.25.1792.1017@0.25.1792.1017" timestamp="1607789230572" />
+    <state width="1750" height="273" key="GridCell.Tab.0.left/0.25.1792.1019@0.25.1792.1019" timestamp="1607358819900" />
+    <state width="1750" height="271" key="GridCell.Tab.0.right" timestamp="1607928968299">
+      <screen x="0" y="25" width="1792" height="1013" />
+    </state>
+    <state width="1638" height="255" key="GridCell.Tab.0.right/0.23.1680.952@0.23.1680.952" timestamp="1603270868297" />
+    <state width="1638" height="253" key="GridCell.Tab.0.right/0.23.1680.953@0.23.1680.953" timestamp="1605197643810" />
+    <state width="1638" height="253" key="GridCell.Tab.0.right/0.23.1680.954@0.23.1680.954" timestamp="1605195274920" />
+    <state width="1638" height="253" key="GridCell.Tab.0.right/0.23.1680.956@0.23.1680.956" timestamp="1605188440886" />
+    <state width="1750" height="271" key="GridCell.Tab.0.right/0.25.1792.1012@0.25.1792.1012" timestamp="1607914884855" />
+    <state width="1750" height="271" key="GridCell.Tab.0.right/0.25.1792.1013@0.25.1792.1013" timestamp="1607928968299" />
+    <state width="1750" height="273" key="GridCell.Tab.0.right/0.25.1792.1015@0.25.1792.1015" timestamp="1607789329704" />
+    <state width="1750" height="213" key="GridCell.Tab.0.right/0.25.1792.1017@0.25.1792.1017" timestamp="1607789230573" />
+    <state width="1750" height="273" key="GridCell.Tab.0.right/0.25.1792.1019@0.25.1792.1019" timestamp="1607358819900" />
+    <state x="341" y="137" key="SettingsEditor" timestamp="1605194135879">
+      <screen x="0" y="23" width="1680" height="954" />
+    </state>
+    <state x="341" y="137" key="SettingsEditor/0.23.1680.954@0.23.1680.954" timestamp="1605194135879" />
+    <state x="617" y="283" key="chooseDestDirectoryDialog" timestamp="1605187138793">
+      <screen x="0" y="23" width="1680" height="954" />
+    </state>
+    <state x="617" y="283" key="chooseDestDirectoryDialog/0.23.1680.954@0.23.1680.954" timestamp="1605187138793" />
+    <state x="240" y="143" width="1200" height="716" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1603270212586">
+      <screen x="0" y="23" width="1680" height="956" />
+    </state>
+    <state x="240" y="143" width="1200" height="712" key="com.android.tools.idea.avdmanager.AvdListDialog/0.23.1680.952@0.23.1680.952" timestamp="1602333808326" />
+    <state x="240" y="143" width="1200" height="714" key="com.android.tools.idea.avdmanager.AvdListDialog/0.23.1680.954@0.23.1680.954" timestamp="1603269587952" />
+    <state x="240" y="143" width="1200" height="716" key="com.android.tools.idea.avdmanager.AvdListDialog/0.23.1680.956@0.23.1680.956" timestamp="1603270212586" />
+    <state x="542" y="337" key="com.intellij.ide.util.TipDialog" timestamp="1605514901543">
+      <screen x="0" y="23" width="1680" height="954" />
+    </state>
+    <state x="542" y="336" key="com.intellij.ide.util.TipDialog/0.23.1680.952@0.23.1680.952" timestamp="1604455130191" />
+    <state x="542" y="336" key="com.intellij.ide.util.TipDialog/0.23.1680.953@0.23.1680.953" timestamp="1605486102247" />
+    <state x="542" y="337" key="com.intellij.ide.util.TipDialog/0.23.1680.954@0.23.1680.954" timestamp="1605514901543" />
+    <state x="542" y="337" key="com.intellij.ide.util.TipDialog/0.23.1680.956@0.23.1680.956" timestamp="1602491028165" />
+    <state x="777" y="127" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1605189691768">
+      <screen x="0" y="23" width="1680" height="954" />
+    </state>
+    <state x="777" y="127" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1680.954@0.23.1680.954" timestamp="1605189691768" />
+    <state x="525" y="142" width="1059" height="786" key="find.popup" timestamp="1609029752892">
+      <screen x="0" y="25" width="1792" height="1019" />
+    </state>
+    <state x="492" y="133" width="852" height="732" key="find.popup/0.23.1680.952@0.23.1680.952" timestamp="1603384517113" />
+    <state x="492" y="133" width="992" height="735" key="find.popup/0.23.1680.953@0.23.1680.953" timestamp="1605486123966" />
+    <state x="492" y="133" width="992" height="735" key="find.popup/0.23.1680.954@0.23.1680.954" timestamp="1605515114880" />
+    <state x="492" y="133" width="852" height="736" key="find.popup/0.23.1680.956@0.23.1680.956" timestamp="1605189347450" />
+    <state x="525" y="141" width="1059" height="780" key="find.popup/0.25.1792.1010@0.25.1792.1010" timestamp="1606177448298" />
+    <state x="525" y="141" width="1059" height="782" key="find.popup/0.25.1792.1012@0.25.1792.1012" timestamp="1607916053376" />
+    <state x="525" y="141" width="1059" height="783" key="find.popup/0.25.1792.1013@0.25.1792.1013" timestamp="1607917280664" />
+    <state x="525" y="142" width="1090" height="785" key="find.popup/0.25.1792.1015@0.25.1792.1015" timestamp="1608023128374" />
+    <state x="525" y="142" width="1210" height="786" key="find.popup/0.25.1792.1017@0.25.1792.1017" timestamp="1607270667148" />
+    <state x="525" y="142" width="1059" height="786" key="find.popup/0.25.1792.1019@0.25.1792.1019" timestamp="1609029752892" />
+    <state x="488" y="240" key="search.everywhere.popup" timestamp="1605797718056">
+      <screen x="0" y="25" width="1792" height="1019" />
+    </state>
+    <state x="488" y="240" key="search.everywhere.popup/0.25.1792.1019@0.25.1792.1019" timestamp="1605797718056" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/hungrynow_android$_Users_jhernandez_hungrynow_android_app_build_gradle.ic" NAME="$PROJECT_DIR$/app/build.gradle Coverage Results" MODIFIED="1596122831694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

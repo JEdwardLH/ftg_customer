@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            app:cardCornerRadius="5dp"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/iv_food"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/app_name"
+                android:scaleType="centerCrop"
+                android:src="@drawable/location_top_bg" />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp">
+
+            <TextView
+                android:id="@+id/tv_item_name"
+                style="@style/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_toStartOf="@+id/iv_quantity_item"
+                android:layout_toLeftOf="@+id/iv_quantity_item"
+                app:fontFamily="@font/helvetica_light"
+                android:gravity="center|start"
+                android:textColor="@color/edit_txt"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_food_price"
+                style="@style/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_item_name"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="2dp"
+                app:fontFamily="@font/helvetica_bold"
+                android:gravity="center|start"
+                android:textColor="@color/color_orange"
+                android:textSize="14sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/tv_food_price"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <View
+                    android:id="@+id/view_extras"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/round_extras" />
+
+                <TextView
+                    android:id="@+id/tv_include"
+                    style="@style/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_toEndOf="@+id/view_extras"
+                    android:layout_toRightOf="@+id/view_extras"
+                    app:fontFamily="@font/helvetica_light"
+                    android:gravity="center|start"
+                    android:maxLines="3"
+                    android:singleLine="false"
+                    android:textColor="@color/edit_txt"
+                    android:textSize="12sp" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/iv_quantity_item"
+                style="@style/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                app:fontFamily="@font/helvetica_light"
+                android:gravity="center|start"
+                android:textColor="@color/color_orange"
+                android:textSize="13sp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</RelativeLayout>

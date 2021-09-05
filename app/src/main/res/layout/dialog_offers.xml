@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="50dp"
+    android:layout_marginRight="15dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/gl"
+        android:layout_width="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_height="0.001dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@id/ivLogo"
+        app:layout_constraintTop_toTopOf="@id/ivLogo" />
+
+    <LinearLayout
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gl"
+        android:layout_width="200dp"
+        android:maxWidth="200dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:minWidth="150dp"
+        android:minHeight="200dp"
+        android:orientation="vertical"
+        app:fontFamily="@font/helvetica_semi_bold"
+        android:background="@drawable/bg_dialog_offers"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_marginTop="25dp"
+            style="@style/textView"
+            android:maxLines="3"
+            android:singleLine="false"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:ellipsize="end"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:text="Dont Shettle For Leftovers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvMessage"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            style="@style/textView"
+            android:textColor="@color/white"
+            android:maxLines="7"
+            android:singleLine="false"
+            android:ellipsize="end"
+            android:layout_weight="1"
+            android:textSize="13sp"
+            android:gravity="center"
+            app:fontFamily="@font/helvetica_ultra_light"
+            android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnOk"
+            android:background="?selectableItemBackground"
+            android:text="@string/okay_got_it"
+            android:textColor="@color/colorAccent"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="100dp"
+        android:padding="10dp"
+        android:background="@drawable/bg_dialog_offers_top"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:src="@drawable/ic_offer_dialog"
+        android:layout_height="100dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

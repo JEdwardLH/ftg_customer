@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/footer_height"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/transparent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <RelativeLayout
+            android:id="@+id/ll_mycart"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/footer_sub_height"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:background="@drawable/view_clickable_color_tab"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:textSize="14sp">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/footer_sub_height"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:id="@+id/iv_mycart"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/ic_cart_unselected" />
+
+                    <TextView
+                        android:id="@+id/cat_tv"
+                        style="@style/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:fontFamily="@font/helvetica_ultra_light"
+                        android:text="@string/nav_cart" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_cart_count"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_gravity="center|top"
+                    android:layout_marginEnd="7dp"
+                    android:layout_marginRight="7dp"
+                    android:background="@drawable/cart_count_rounded"
+                    android:contentDescription="@string/app_name"
+                    android:gravity="center"
+                    android:text="1"
+                    android:visibility="gone"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="10sp" />
+            </FrameLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_fav"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/footer_sub_height"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:background="@drawable/view_clickable_color_tab"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_fav"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_search_unselected" />
+
+            <TextView
+                android:id="@+id/search_tv"
+                style="@style/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fontFamily="@font/helvetica_ultra_light"
+                android:text="@string/nav_search"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/ll_home"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/footer_height"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/footer_sub_height"
+                android:layout_alignParentBottom="true"
+                android:background="@color/colorWhite" />
+
+            <LinearLayout
+                android:id="@+id/ll_home_selected"
+                android:layout_width="@dimen/footer_height"
+                android:layout_height="@dimen/footer_height"
+                android:layout_centerInParent="true"
+                android:background="@drawable/navigation_shadow_round"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/iv_home_selected"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ic_home_selected_with_bg" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_home_un_selected"
+                android:layout_width="@dimen/footer_height"
+                android:layout_height="@dimen/footer_sub_height"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/navigation_shadow_round"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/iv_home"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ic_home_unselected" />
+
+                <TextView
+                    android:id="@+id/tv_home"
+                    style="@style/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:fontFamily="@font/helvetica_ultra_light"
+                    android:text="@string/nav_home"
+                    android:textSize="14sp"
+                    android:visibility="visible" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ll_track"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/footer_sub_height"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:background="@drawable/view_clickable_color_tab"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/iv_track"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_track_unselected" />
+
+            <TextView
+                android:id="@+id/track_tv"
+                style="@style/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fontFamily="@font/helvetica_ultra_light"
+                android:text="@string/nav_track"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_wallet"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/footer_sub_height"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:background="@drawable/view_clickable_color_tab"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_wallet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_wallet_unselected" />
+
+            <TextView
+                android:id="@+id/wallet_tv"
+                style="@style/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fontFamily="@font/helvetica_ultra_light"
+                android:text="@string/nav_wallet"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,127 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        card_view:cardCornerRadius="3dp"
+        card_view:cardElevation="3dp"
+        card_view:cardMaxElevation="3dp"
+        card_view:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    style="@style/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    app:fontFamily="@font/helvetica_light"
+                    android:text="@string/filter"
+                    android:textColor="@color/color_orange"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/iv_close"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/view_clickable_color"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_close_orange" />
+            </RelativeLayout>
+
+            <TextView
+                style="@style/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:fontFamily="@font/helvetica_ultra_light"
+                android:text="@string/by_name"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/edit_txt"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rdb_atz"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:fontFamily="@font/helvetica_ultra_light"
+                    android:textColor="@color/edit_txt"
+                    android:layout_marginTop="5dp"
+                    android:textSize="16sp"
+                    android:text="@string/ascending_order_ato_z"
+                    android:theme="@style/RadioButtonTheme" />
+
+                <RadioButton
+                    android:id="@+id/rdb_zta"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:fontFamily="@font/helvetica_ultra_light"
+                    android:textColor="@color/edit_txt"
+                    android:layout_marginTop="5dp"
+                    android:textSize="16sp"
+                    android:text="@string/descending_order_zto_a"
+                    android:theme="@style/RadioButtonTheme" />
+
+
+                <TextView
+                    style="@style/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:fontFamily="@font/helvetica_ultra_light"
+                    android:text="@string/by_price"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/edit_txt"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/rdb_htl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:fontFamily="@font/helvetica_ultra_light"
+                    android:text="@string/high_to_low"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/edit_txt"
+                    android:textSize="16sp"
+                    android:theme="@style/RadioButtonTheme" />
+
+                <RadioButton
+                    android:id="@+id/rdb_lth"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:fontFamily="@font/helvetica_ultra_light"
+                    android:text="@string/low_to_high"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/edit_txt"
+                    android:textSize="16sp"
+                    android:theme="@style/RadioButtonTheme" />
+
+
+            </RadioGroup>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

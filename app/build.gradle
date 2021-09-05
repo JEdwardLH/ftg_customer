@@ -1,0 +1,129 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        defaultconfig {
+            keyAlias 'FoodToGo'
+            keyPassword 'FoodToGo'
+            storeFile file('/Users/J.Hernandez/Documents/SideBet/Food To go/keystore/customer/custoner.jks')
+            storePassword 'FoodToGo'
+        }
+    }
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    defaultConfig {
+        applicationId "com.foodtogo.user"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 5
+        versionName "1.2"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        renderscriptTargetApi rootProject.ext.compileSdkVersion as int
+        renderscriptSupportModeEnabled true
+        multiDexEnabled true
+        signingConfig signingConfigs.defaultconfig
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.defaultconfig
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/services/javax.annotation.processing.Processor'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    lintOptions {
+        disable 'InvalidPackage'
+        abortOnError false
+    }
+    productFlavors {
+    }
+    dexOptions {
+        javaMaxHeapSize "4G"
+    }
+
+}
+
+dependencies {
+
+    //App
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.google.android.material:material:1.1.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'com.ss.bannerslider:bannerslider:2.0.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'com.github.ronaldsmartin:Material-ViewPagerIndicator:1.0.4'
+    //Network
+    implementation "com.squareup.okhttp3:okhttp:$rootProject.okhttpVersion"
+    implementation "com.squareup.okhttp3:logging-interceptor:$rootProject.intercepterVersion"
+    implementation "com.google.code.gson:gson:$rootProject.gsonVersion"
+    implementation "com.squareup.retrofit2:retrofit:$rootProject.retrofitVersion"
+    implementation "com.squareup.retrofit2:adapter-rxjava2:$rootProject.rxadapterVersion"
+    implementation "com.squareup.retrofit2:converter-gson:$rootProject.rxadapterVersion"
+    // RxJava
+    implementation "io.reactivex.rxjava2:rxandroid:$rootProject.rxandroidVersion"
+
+    // dexter runtime permissions
+    implementation 'com.karumi:dexter:4.2.0'
+    implementation 'com.google.firebase:firebase-iid:20.0.0'
+    implementation 'com.google.firebase:firebase-messaging:20.0.0'
+    implementation 'com.google.firebase:firebase-core:17.2.0'
+
+    //Slider
+    implementation 'com.github.bumptech.glide:glide:4.9.0'
+    implementation 'com.google.firebase:firebase-functions:19.0.2'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'
+    implementation 'jp.wasabeef:glide-transformations:4.0.0'
+    implementation 'com.chaos.view:pinview:1.4.2'
+    implementation 'com.asksira.android:loopingviewpager:1.2.0'
+
+    // If you want to use the GPU Filters
+    implementation('com.paypal.sdk:paypal-android-sdk:2.16.0') {
+        exclude group: 'io.card'
+    }
+
+    // Mqtt
+    implementation 'org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.2.0'
+    implementation 'org.eclipse.paho:org.eclipse.paho.android.service:1.1.1'
+
+    // Butter knife
+    implementation "com.jakewharton:butterknife:$rootProject.butterKnifeVersion"
+    annotationProcessor "com.jakewharton:butterknife-compiler:$rootProject.butterKnifeVersion"
+
+    //Social Media
+    implementation 'com.google.android.gms:play-services-auth:17.0.0'
+    implementation 'com.google.android.gms:play-services-location:17.0.0'
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+    implementation 'com.google.android.gms:play-services-places:17.0.0'
+    implementation 'com.facebook.android:facebook-android-sdk:[5,6)'
+    implementation 'com.androidadvance:topsnackbar:1.0.0'
+
+
+    // implementation 'com.github.aliumujib:Nibo:2.0'
+    implementation project(':nibo_library')
+
+    // Shimmer
+    implementation 'com.facebook.shimmer:shimmer:0.1.0@aar'
+    implementation 'com.github.hannesa2:AndroidSlidingUpPanel:3.5.0'
+
+    // UI testing
+    testImplementation "junit:junit:$rootProject.junitVersion"
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation 'com.tbuonomo.andrui:viewpagerdotsindicator:4.1.2'
+    implementation platform('com.google.firebase:firebase-bom:26.1.1')
+    implementation 'com.google.firebase:firebase-analytics'
+    //simple tooltip
+    implementation 'com.github.douglasjunior:android-simple-tooltip:0.2.2'
+
+    // Facebook stetho
+    implementation 'com.facebook.stetho:stetho:1.5.1'
+}
+apply plugin: 'com.google.gms.google-services'

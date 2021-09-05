@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_store_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/tv_store_name"
+            style="@style/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="7dp"
+            android:layout_marginLeft="7dp"
+            android:layout_toStartOf="@+id/tv_track"
+            android:layout_toLeftOf="@+id/tv_track"
+            app:fontFamily="@font/helvetica_medium"
+            android:gravity="center|start"
+            android:textColor="@color/color_orange"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_track"
+            style="@style/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_toStartOf="@+id/iv_info"
+            android:layout_toLeftOf="@+id/iv_info"
+            android:background="@drawable/track_btn"
+            android:drawableStart="@drawable/ic_location_small"
+            android:drawableLeft="@drawable/ic_location_small"
+            app:fontFamily="@font/helvetica_medium"
+            android:gravity="center"
+            android:paddingStart="12dp"
+            android:paddingLeft="12dp"
+            android:paddingEnd="12dp"
+            android:paddingRight="12dp"
+            android:text="@string/track"
+            android:textColor="@color/colorWhite"
+            android:textSize="12sp"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/iv_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_info_grey"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        app:cardCornerRadius="5dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_gravity="center"
+                app:cardCornerRadius="5dp"
+                app:cardUseCompatPadding="true">
+
+                <ImageView
+                    android:id="@+id/iv_food"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/location_top_bg" />
+
+            </androidx.cardview.widget.CardView>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp">
+
+                <TextView
+                    android:id="@+id/tv_item_name"
+                    style="@style/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginEnd="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_toStartOf="@+id/iv_cancal_for_reason"
+                    android:layout_toLeftOf="@+id/iv_cancal_for_reason"
+                    app:fontFamily="@font/helvetica_light"
+                    android:gravity="center|start"
+                    android:textColor="@color/edit_txt"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tv_food_price"
+                    style="@style/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_item_name"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="2dp"
+                    app:fontFamily="@font/helvetica_bold"
+                    android:gravity="center|start"
+                    android:textColor="@color/edit_txt"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_food_price"
+                    android:layout_marginTop="2dp"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.8"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_cancel_date_title"
+                            style="@style/textView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="2dp"
+                            android:layout_marginLeft="2dp"
+                            app:fontFamily="@font/helvetica_light"
+                            android:gravity="center|start"
+                            android:text="@string/cancel_date"
+                            android:textColor="@color/edit_txt"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/tv_cancel_date"
+                            style="@style/textView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="2dp"
+                            android:layout_marginLeft="2dp"
+                            android:scrollHorizontally="true"
+                            android:scrollbars="none"
+                            android:focusable="true"
+                            android:freezesText="true"
+                            android:ellipsize="marquee"
+                            android:focusableInTouchMode="true"
+                            android:marqueeRepeatLimit ="marquee_forever"
+                            app:fontFamily="@font/helvetica_medium"
+                            android:gravity="center|start"
+                            android:textColor="@color/edit_txt"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="1.2"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_refund_status_title"
+                            style="@style/textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="2dp"
+                            app:fontFamily="@font/helvetica_light"
+                            android:gravity="center|end"
+                            android:text="@string/refund_status_small"
+                            android:textColor="@color/edit_txt"
+                            android:textSize="14sp"
+                            android:visibility="visible" />
+
+                        <TextView
+                            android:id="@+id/tv_refund_status"
+                            style="@style/textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="2dp"
+                            android:layout_marginLeft="2dp"
+                            app:fontFamily="@font/helvetica_medium"
+                            android:gravity="center|end"
+                            android:text="@string/view"
+                            android:scrollHorizontally="true"
+                            android:scrollbars="none"
+                            android:focusable="true"
+                            android:freezesText="true"
+                            android:ellipsize="marquee"
+                            android:focusableInTouchMode="true"
+                            android:marqueeRepeatLimit ="marquee_forever"
+                            android:textColor="@color/color_orange"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_item_available"
+                    style="@style/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_food_price"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center|start"
+                    android:textColor="@color/color_orange"
+                    android:textSize="15sp" />
+
+
+                <ImageView
+                    android:id="@+id/iv_cancal_for_reason"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/view_clickable_color"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ic_info_grey"
+                    android:visibility="visible" />
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

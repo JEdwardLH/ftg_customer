@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:fontFamily="@font/helvetica_semi_bold"
+        android:layout_marginTop="10dp"
+        android:text="@string/add_new_address"
+        />
+
+    <RadioGroup
+        android:id="@+id/type_rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:weightSum="3"
+        android:background="#C2BFBF"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/home_rb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="3dp"
+            android:checked="true"
+            android:layout_weight="1"
+            android:theme="@style/RadioButtonAddressTheme"
+            android:text="@string/nav_home"/>
+        <RadioButton
+            android:id="@+id/work_rb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="3dp"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="10dp"
+            android:theme="@style/RadioButtonAddressTheme"
+            android:text="@string/key_work"/>
+
+        <RadioButton
+            android:id="@+id/other_rb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="3dp"
+            android:layout_weight="1"
+            android:theme="@style/RadioButtonAddressTheme"
+            android:text="@string/others"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/find_my_location"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/find_my_location"
+        style="@style/TextAppearance.AppCompat.Button"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        android:background="@drawable/track_btn"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/house_building_address"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/helvetica_medium"
+        android:textSize="14sp"/>
+
+    <EditText
+        android:id="@+id/edt_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:hint="@string/name_of_building"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textSize="14sp"
+        android:focusableInTouchMode="false"
+        android:focusable="true"
+        android:clickable="true"
+        android:textColorHint="@color/edit_txt"
+        android:fontFamily="@font/helvetica_regular"
+        android:background="@drawable/search_bg"
+        tools:ignore="TextFields"
+        android:importantForAutofill="no" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/info_to_riders"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:textColor="@color/black"
+        android:fontFamily="@font/helvetica_medium"
+        android:textSize="14sp"/>
+
+    <EditText
+        android:id="@+id/edt_address_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="@string/info_riders_hint"
+        android:minHeight="100dp"
+        android:padding="10dp"
+        android:gravity="start"
+        android:textColorHint="@color/edit_txt"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:textSize="14sp"
+        android:fontFamily="@font/helvetica_regular"
+        android:background="@drawable/search_bg"
+        tools:ignore="TextFields"
+        android:importantForAutofill="no" />
+
+    <TextView
+        android:id="@+id/tv_address_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_address_name"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:visibility="gone"
+        android:textSize="14sp"/>
+    <EditText
+        android:id="@+id/edt_address_name"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dp"
+        android:hint="@string/like_house_shop"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:visibility="gone"
+        android:textSize="14sp"
+        android:textColorHint="@color/edit_txt"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:fontFamily="@font/helvetica_regular"
+        android:background="@drawable/search_bg"
+        tools:ignore="TextFields"
+        android:importantForAutofill="no" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:weightSum="2"
+        android:gravity="center">
+        <Button
+            android:id="@+id/save_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="@string/save"
+            android:layout_weight="1"
+            style="@style/TextAppearance.AppCompat.Button"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="@drawable/track_btn"/>
+        <Button
+            android:id="@+id/cancel_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="@string/cancel"
+            android:layout_weight="1"
+           android:layout_marginLeft="5dp"
+            style="@style/TextAppearance.AppCompat.Button"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="@drawable/track_btn"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

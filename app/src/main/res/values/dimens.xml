@@ -1,0 +1,70 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--Login-->
+    <dimen name="edit_text_size">15sp</dimen>
+    <dimen name="text_small">13sp</dimen>
+    <dimen name="edit_text_pading_left">5dp</dimen>
+    <dimen name="login_margin_top">10dp</dimen>
+    <dimen name="login_btn_margin_top">15dp</dimen>
+    <dimen name="login_edit_size">15sp</dimen>
+    <dimen name="login_btn_size">40dp</dimen>
+    <dimen name="login_social_left_right">4dp</dimen>
+    <dimen name="login_social_media_icon">46dp</dimen>
+    <dimen name="login_btn_width">120dp</dimen>
+
+
+    <!--Navigation-->
+    <dimen name="nav_header_ht">150dp</dimen>
+    <dimen name="nav_item_ht">50dp</dimen>
+
+    <!--Home-->
+    <dimen name="item_restaurant_wt">120dp</dimen>
+    <dimen name="item_restaurant_ht">80dp</dimen>
+    <dimen name="item_food_wt">230dp</dimen>
+    <dimen name="item_food_ht">220dp</dimen>
+    <dimen name="item_food_ht_sm">210dp</dimen>
+    <dimen name="item_food_image_ht">120dp</dimen>
+    <dimen name="item_food_content_ht">100dp</dimen>
+    <dimen name="item_restaurant_wtht">100dp</dimen>
+
+    <!--Restaurant Category-->
+    <dimen name="item_category_content_width">240dp</dimen>
+    <dimen name="item_category_content_height">245dp</dimen>
+    <dimen name="item_category_content_ht">120dp</dimen>
+
+
+    <!--Item Details-->
+    <dimen name="item_details_magin">10dp</dimen>
+
+
+    <!--Nav Footer -->
+    <dimen name="footer_height">60dp</dimen>
+    <dimen name="footer_sub_height">50dp</dimen>
+
+    <!--My Cart -->
+    <dimen name="item_cart_pm_width">55dp</dimen>
+    <dimen name="item_cart_image_wh">100dp</dimen>
+    <dimen name="item_cart_height">120dp</dimen>
+
+
+    <!--Place Holder -->
+    <dimen name="activity_padding">16dp</dimen>
+    <dimen name="placeholder_image">50dp</dimen>
+    <dimen name="placeholder_text_height">8dp</dimen>
+    <dimen name="activity_padding_horizontal">16dp</dimen>
+    <dimen name="padding_10">10dp</dimen>
+    <dimen name="name">15dp</dimen>
+    <dimen name="chef">12dp</dimen>
+    <dimen name="timestamp">11dp</dimen>
+    <dimen name="description">15dp</dimen>
+    <dimen name="price">13dp</dimen>
+
+
+    <dimen name="paralax_offset">125dp</dimen>
+    <dimen name="map_height">120dp</dimen>
+    <dimen name="divider_height">1dp</dimen>
+
+</resources>

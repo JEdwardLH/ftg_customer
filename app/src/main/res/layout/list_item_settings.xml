@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:id="@+id/rl_item_view"
+    android:clickable="true"
+    android:background="@drawable/view_clickable_color_nopad"
+    android:padding="10dp">
+
+
+    <ImageView
+        android:id="@+id/iv_settings_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_clsoe" />
+
+
+    <TextView
+        android:id="@+id/iv_settings_name"
+        style="@style/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_toStartOf="@+id/iv_right_item"
+        android:layout_toLeftOf="@+id/iv_right_item"
+        android:layout_toEndOf="@+id/iv_settings_icon"
+        android:layout_toRightOf="@+id/iv_settings_icon"
+        app:fontFamily="@font/helvetica_light"
+        android:gravity="center|start"
+        android:textColor="@color/edit_txt"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/iv_right_item"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_arrow_right_orange" />
+
+
+    <Switch
+        android:id="@+id/iv_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:visibility="gone"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_arrow_right_orange" />
+
+</RelativeLayout>

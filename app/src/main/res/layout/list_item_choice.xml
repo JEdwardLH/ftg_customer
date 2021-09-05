@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent">
+
+    <CheckBox
+        android:id="@+id/cb_choice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:checked="false"
+        android:button="@drawable/check_box_green_selector"
+        app:fontFamily="@font/helvetica_light"
+        android:gravity="center|start"
+        android:paddingStart="15dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="4dp"
+        android:paddingEnd="1dp"
+        android:paddingRight="1dp"
+        android:paddingBottom="4dp"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tv_price"
+        style="@style/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/cb_choice"
+        android:layout_toRightOf="@+id/cb_choice"
+        app:fontFamily="@font/helvetica_light"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textSize="13sp"
+        android:textColor="@color/edit_txt_hint" />
+
+</RelativeLayout>

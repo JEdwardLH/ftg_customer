@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.foodtogo.user">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" />
+
+
+    <application
+        android:name="com.foodtogo.user.BaseApplication"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:configChanges="locale"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
+        tools:replace="android:allowBackup"
+        tools:targetApi="m">
+
+        <!--meta-data
+            android:name="asset_statements"
+            android:resource="@string/asset_statements" />-->
+
+        <activity
+            android:name="com.foodtogo.user.ui.splash.activity.Splash"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter
+                android:autoVerify="true"
+                tools:targetApi="m">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="demo5.pofi5.com"
+                    android:scheme="http" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.foodtogo.user.ui.login.activity.Login"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity
+            android:name="com.foodtogo.user.ui.address.activity.AddAddress"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity
+            android:name="com.foodtogo.user.ui.track.activity.LiveTrackActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden"
+           />
+        <activity
+            android:name="com.foodtogo.user.ui.home.activity.Home"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBarHome"
+            android:windowSoftInputMode="adjustResize"
+           >
+        </activity>
+
+        <activity
+            android:name=".ui.manageaddress.activity.ManageAddressActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/nav_item_manage_address"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="com.foodtogo.user.MyAction"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+
+
+        <activity
+            android:name="com.foodtogo.user.ui.register.activity.Register"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity
+            android:name="com.foodtogo.user.ui.forgotpassword.activity.ForgotPassword"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity
+            android:name="com.foodtogo.user.ui.viewall.activity.ViewAll"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBarHome"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity
+            android:name="com.foodtogo.user.ui.viewrestaurant.activity.ViewRestaurant"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBarHome"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity
+            android:name="com.foodtogo.user.ui.allrestaurant.activity.AllRestaurantActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.SearchBar"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity
+            android:name="com.foodtogo.user.ui.viewitemdetails.activity.ViewItemDetails"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBarHome"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity
+            android:name="com.foodtogo.user.ui.payment.activity.Payment"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBarHome"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity
+            android:name="com.foodtogo.user.ui.shippingaddress.activity.ShippingAddress"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBarHome"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name="com.foodtogo.user.ui.orders.activity.OrderActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBarHome"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity
+            android:name="com.foodtogo.user.ui.refunddetails.activity.RefundDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity
+            android:name="com.foodtogo.user.ui.invoice.activity.InvoiceDetails"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBarHome"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity
+            android:name="com.foodtogo.user.ui.settings.activity.SettingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBarHome"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity
+            android:name="com.foodtogo.user.ui.settings.activity.SettingMenuActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBarHome"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity
+            android:name="com.foodtogo.user.ui.viewallreviews.activity.ViewAllReviews"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBarHome"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity
+            android:name="com.foodtogo.user.ui.viewrestaurant.activity.WorkingsHours"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBarHome"
+            android:windowSoftInputMode="stateHidden" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <!-- The API key for Google Maps-based APIs.   -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_api_key" />
+
+        <activity
+            android:name="com.alium.nibo.origindestinationpicker.NiboOriginDestinationPickerActivity"
+            android:label="@string/title_activity_origin_destination_picker"
+            android:theme="@style/NiboOrigDestTheme.NoActionBar"
+            tools:replace="android:theme" />
+
+        <service android:name="org.eclipse.paho.android.service.MqttService" />
+
+        <service android:name="com.foodtogo.user.firebase.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <!-- Set custom default icon. This is used when no icon is set for incoming notification messages.
+     See README(https://goo.gl/l4GJaQ) for more. -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_noti_logo" />
+        <!-- Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more. -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+        <activity android:name=".ui.DialogActivity"
+            android:label=""
+            android:theme="@style/Theme.Transparent">
+            <intent-filter>
+                <action android:name="com.foodtogo.user.MyDialogAction"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+
+
+    </application>
+
+</manifest>

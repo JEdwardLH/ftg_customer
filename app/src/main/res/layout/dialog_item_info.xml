@@ -1,0 +1,205 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        card_view:cardCornerRadius="3dp"
+        card_view:cardElevation="3dp"
+        card_view:cardMaxElevation="3dp"
+        card_view:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    style="@style/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toStartOf="@+id/iv_close"
+                    android:layout_toLeftOf="@+id/iv_close"
+                    app:fontFamily="@font/helvetica_light"
+                    android:maxLines="3"
+                    android:singleLine="false"
+                    android:textColor="@color/color_orange"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/iv_close"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/view_clickable_color"
+                    android:contentDescription="@string/by_price"
+                    android:src="@drawable/ic_close_orange" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_price"
+                style="@style/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                app:fontFamily="@font/helvetica_ultra_light"
+                android:text="@string/item_price"
+                android:textColor="@color/edit_txt"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_price_info"
+                style="@style/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                app:fontFamily="@font/helvetica_light"
+                android:gravity="center|start"
+                android:maxLines="3"
+                android:singleLine="false"
+                android:textColor="@color/edit_txt"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tv_item_tax"
+                style="@style/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                app:fontFamily="@font/helvetica_ultra_light"
+                android:text="@string/item_tax"
+                android:visibility="gone"
+                android:textColor="@color/edit_txt"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_tax_info"
+                style="@style/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                app:fontFamily="@font/helvetica_light"
+                android:gravity="center|start"
+                android:maxLines="3"
+                android:visibility="gone"
+                android:singleLine="false"
+                android:textColor="@color/edit_txt"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tv_pre_order"
+                style="@style/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                app:fontFamily="@font/helvetica_ultra_light"
+                android:text="@string/item_pre_order_date"
+                android:textColor="@color/edit_txt"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_preorder_info"
+                style="@style/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                app:fontFamily="@font/helvetica_light"
+                android:gravity="center|start"
+                android:maxLines="3"
+                android:singleLine="false"
+                android:textColor="@color/edit_txt"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tv_quantity"
+                style="@style/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                app:fontFamily="@font/helvetica_ultra_light"
+                android:text="@string/item_quantity"
+                android:textColor="@color/edit_txt"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_quantity_info"
+                style="@style/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                app:fontFamily="@font/helvetica_light"
+                android:gravity="center|start"
+                android:maxLines="3"
+                android:singleLine="false"
+                android:textColor="@color/edit_txt"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tv_choice"
+                style="@style/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                app:fontFamily="@font/helvetica_ultra_light"
+                android:text="@string/item_choice"
+                android:textColor="@color/edit_txt"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_choice_info"
+                style="@style/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                app:fontFamily="@font/helvetica_light"
+                android:gravity="center|start"
+                android:maxLines="3"
+                android:singleLine="false"
+                android:textColor="@color/edit_txt"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tv_special"
+                style="@style/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                app:fontFamily="@font/helvetica_ultra_light"
+                android:text="@string/item_special"
+                android:textColor="@color/edit_txt"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_special_info"
+                style="@style/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                app:fontFamily="@font/helvetica_light"
+                android:gravity="center|start"
+                android:maxLines="3"
+                android:singleLine="false"
+                android:textColor="@color/edit_txt"
+                android:textSize="13sp" />
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

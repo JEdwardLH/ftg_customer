@@ -1,0 +1,148 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="NiboTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+
+    <style name="NiboPlacePickerTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorButtonNormal">@color/colorPrimaryDark</item>
+        <item name="android:windowTranslucentStatus" tools:targetApi="kitkat">true</item>
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@android:color/transparent
+        </item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="NiboOrigDestTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="android:statusBarColor" tools:targetApi="lollipop">
+            @color/circle_color_default_gray
+        </item>
+
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="originRoundViewStyle">@style/BaseOriginCircleViewTheme</item>
+        <item name="destinationRoundViewStyle">@style/BaseDestinationCircleViewTheme</item>
+        <item name="originDestinationSeperatorLineColor">@color/circle_color_default_gray</item>
+        <item name="editTextClearerIcon">@drawable/ic_close_circle_def</item>
+        <item name="detailsBackground">@color/white</item>
+        <item name="appBarBackground">@color/white</item>
+        <item name="navigationIcon">@drawable/arrow_left</item>
+
+        <item name="distanceDurationTextColor">@color/suggestion_title</item>
+        <item name="originDestinationTextColor">@color/suggestion_title</item>
+
+        <item name="progressBarColor">@color/circle_color_default_gray</item>
+
+        <item name="origEditTextHint">@string/origin_hint</item>
+        <item name="destEditTextHint">@string/destination_hint</item>
+
+        <item name="origEditTextHintColor">#808080</item>
+        <item name="destEditTextHintColor">#808080</item>
+
+        <item name="origEditTextTextColor">@color/black</item>
+        <item name="destEditTextTextColor">@color/black</item>
+
+        <item name="originEditTextBg">@color/circle_color_default_gray</item>
+        <item name="destEditTextBg">@color/circle_color_default_gray</item>
+
+        <item name="primaryPolyLineColor">@color/black</item>
+        <item name="doneFabColorRes">@drawable/ic_navigation_def</item>
+
+        <item name="suggestionItemTitleTextColor">@color/suggestion_title</item>
+        <item name="suggestionItemSubtitleTextColor">@color/suggestion_title</item>
+        <item name="suggestionItemSeperatorLineColor">@color/seperator_div</item>
+        <item name="suggestionItemLeftIconTintColor">@color/md_greycol_600</item>
+
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="BaseOriginCircleViewTheme">
+        <item name="colorSelected">@color/black</item>
+        <item name="colorUnselected">@color/circle_color_default_gray</item>
+    </style>
+
+    <style name="BaseDestinationCircleViewTheme">
+        <item name="colorSelected">@color/black</item>
+        <item name="colorUnselected">@color/circle_color_default_gray</item>
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="NiboTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="NiboTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="editText" parent="android:Widget.EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15sp</item>
+        <item name="fontFamily">@font/helvetica_light</item>
+        <item name="android:textColor">@color/edit_txt</item>
+        <item name="android:textColorHint">@color/edit_txt_hint</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:longClickable">false</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">center|left</item>
+    </style>
+
+
+    <style name="square_btn" parent="android:Widget.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/square_orange_btn</item>
+        <item name="fontFamily">@font/helvetica_semi_bold</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="textView" parent="android:Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">@font/helvetica_semi_bold</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/edit_txt</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">center|left</item>
+    </style>
+    <style name="dialog_default_button" parent="@style/Widget.AppCompat.Button.Borderless">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:background">@drawable/view_clickable_color_nopad</item>
+        <item name="fontFamily">@font/helvetica_semi_bold</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="DefaultDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+</resources>
