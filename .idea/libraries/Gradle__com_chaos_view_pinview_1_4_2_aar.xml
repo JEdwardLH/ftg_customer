@@ -10,6 +10,9 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3a963eb6ef00d3bdf93aeb6c6d0cd46d/jetified-pinview-1.4.2/res" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3a963eb6ef00d3bdf93aeb6c6d0cd46d/jetified-pinview-1.4.2/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3a963eb6ef00d3bdf93aeb6c6d0cd46d/jetified-pinview-1.4.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8ec78569a8eef0df69acba3324eb6e8b/jetified-pinview-1.4.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8ec78569a8eef0df69acba3324eb6e8b/jetified-pinview-1.4.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8ec78569a8eef0df69acba3324eb6e8b/jetified-pinview-1.4.2/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.chaos.view/pinview/1.4.2/c91a1bb1e80ef6edd12ba1e726318b39770c7760/pinview-1.4.2-javadoc.jar!/" />

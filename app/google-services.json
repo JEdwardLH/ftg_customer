@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "598855931929",
-    "project_id": "foodtogo-customer",
-    "storage_bucket": "foodtogo-customer.appspot.com"
+    "project_number": "234950729942",
+    "project_id": "ftg-cusotmer",
+    "storage_bucket": "ftg-cusotmer.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:598855931929:android:ce7ce5ab4f6cadd4a8f288",
+        "mobilesdk_app_id": "1:234950729942:android:6b00a9ca817c58b9a4e977",
         "android_client_info": {
           "package_name": "com.foodtogo.user"
         }
       },
       "oauth_client": [
         {
-          "client_id": "598855931929-9u2fgh1vcc3ohnjs386e6vdstcfpk609.apps.googleusercontent.com",
+          "client_id": "234950729942-munu17mj3esp7p8sgms1l16dqssuoeiu.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAc_CitjC9Tz2QbTTJTmZH2Y_zSN_Z9QX0"
+          "current_key": "AIzaSyCvN4BaZ5U033V59_CauMi33wq6Jnyr5ZI"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "598855931929-9u2fgh1vcc3ohnjs386e6vdstcfpk609.apps.googleusercontent.com",
+              "client_id": "234950729942-munu17mj3esp7p8sgms1l16dqssuoeiu.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

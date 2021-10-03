@@ -4,6 +4,7 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b886243e0cb7219bf376da592f4f15c1/jetified-Material-ViewPagerIndicator-1.0.4/annotations.zip!/" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e1abbbe3f1e214c36b0d4fa19372bab1/jetified-Material-ViewPagerIndicator-1.0.4/annotations.zip!/" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2f2e407e1ee0fc3704d803ec7c86c36c/jetified-Material-ViewPagerIndicator-1.0.4/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e2b9e6906e51af7ab93091f0956889de/jetified-Material-ViewPagerIndicator-1.0.4/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b886243e0cb7219bf376da592f4f15c1/jetified-Material-ViewPagerIndicator-1.0.4/jars/classes.jar!/" />
@@ -15,8 +16,13 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2f2e407e1ee0fc3704d803ec7c86c36c/jetified-Material-ViewPagerIndicator-1.0.4/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2f2e407e1ee0fc3704d803ec7c86c36c/jetified-Material-ViewPagerIndicator-1.0.4/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2f2e407e1ee0fc3704d803ec7c86c36c/jetified-Material-ViewPagerIndicator-1.0.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e2b9e6906e51af7ab93091f0956889de/jetified-Material-ViewPagerIndicator-1.0.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e2b9e6906e51af7ab93091f0956889de/jetified-Material-ViewPagerIndicator-1.0.4/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e2b9e6906e51af7ab93091f0956889de/jetified-Material-ViewPagerIndicator-1.0.4/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ronaldsmartin/Material-ViewPagerIndicator/1.0.4/a1534a3cffb63239b04c21e9fa7145538a0e580/Material-ViewPagerIndicator-1.0.4-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>
