@@ -65,7 +65,7 @@ public interface NiboConstants {
     String TAB_POSITION = "tabPosition";
 
 
-    String BASE_DIRECTIONS_URL = "https://maps.googleapis.com";
+    String BASE_DIRECTIONS_URL = "https://foodtogodeliveryph.com";
     int HOME_ADDRESS=1;
     int WORK_ADDRESS=2;
     int OTHER_ADDRESS=3;

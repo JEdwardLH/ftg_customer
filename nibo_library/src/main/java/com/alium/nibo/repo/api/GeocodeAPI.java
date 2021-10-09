@@ -13,6 +13,6 @@ import retrofit2.http.Query;
 
 public interface GeocodeAPI {
 
-    @GET("/maps/api/geocode/json")
+    @GET("/geocode/json")
     Call<JsonObject> getPolylineData(@Query("latlng") String latLng, @Query("key") String apiKey,@Query("language") String lang );
 }

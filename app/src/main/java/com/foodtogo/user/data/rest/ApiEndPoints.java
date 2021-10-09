@@ -82,7 +82,7 @@ class ApiEndPoints {
     static final String TOP_RESTAURANT_LIST="customer/top_restaurant_list";
 
 
-    static final String DIRECTION_API = "https://maps.googleapis.com/maps/api/directions/json";
+    static final String DIRECTION_API = "https://foodtogodeliveryph.com/directions/json";
     static final String DISTANCE_API = "https://maps.googleapis.com/maps/api/distancematrix/json";
-    static final String ADDRESS_API = "https://maps.googleapis.com/maps/api/geocode/json";
+    static final String ADDRESS_API = "https://foodtogodeliveryph.com/geocode/json";
 }

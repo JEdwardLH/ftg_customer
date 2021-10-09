@@ -7,21 +7,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:transitionGroup="true"
-    android:background="@color/white"
+    android:background="#BD0000"
     tools:context=".ui.splash.activity.Splash">
 
     <ImageView
         android:id="@+id/iv_splash"
-        android:layout_width="191dp"
-        android:layout_height="214dp"
+        android:layout_width="399dp"
+        android:layout_height="737dp"
         android:contentDescription="@string/app_name"
 
-        android:src="@drawable/app_logo"
+        android:src="@drawable/foodtogosplash"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.197" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ProgressBar
         android:id="@+id/progress_bar"
@@ -39,21 +38,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/text"
-        android:layout_width="344dp"
-        android:layout_height="331dp"
-        android:text="Skip The Queue As Quick As A Click"
-        android:textAlignment="center"
-        android:textColor="#B92930"
-        android:textSize="20dp"
-        android:textStyle="bold"
-
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/progress_bar"
-        app:layout_constraintVertical_bias="1.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

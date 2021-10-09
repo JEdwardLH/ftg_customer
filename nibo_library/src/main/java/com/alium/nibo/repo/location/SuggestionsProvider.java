@@ -46,7 +46,7 @@ public class SuggestionsProvider implements ISuggestionRepository {
     public SuggestionsProvider(GoogleApiClient mGoogleApiClient, Context mContext) {
         this.mGoogleApiClient = mGoogleApiClient;
         this.mContext = mContext;
-        com.google.android.libraries.places.api.Places.initialize(mContext,mContext.getString(R.string.google_places_key));
+        com.google.android.libraries.places.api.Places.initialize(mContext,"AIzaSyCvN4BaZ5U033V59_CauMi33wq6Jnyr5ZI");
         // Create a new Places client instance.
         placesClient = com.google.android.libraries.places.api.Places.createClient(mContext);
     }
