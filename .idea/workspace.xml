@@ -6,7 +6,7 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="AIzaSyCvN4BaZ5U033V59_CauMi33wq6Jnyr5ZI" />
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="dsadadsad" />
     <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
     <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
@@ -57,22 +57,27 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle_____________Library_Android_sdk_build_tools_28_0_3_renderscript_lib_androidx_rs_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle________________Library_Android_sdk_build_tools_28_0_3_renderscript_lib_androidx_rs_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/app/ftg_customer.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/ftg_customer.app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/nibo_library/ftg_customer.nibo_library.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/nibo_library/ftg_customer.nibo_library.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/google-services.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/release/app-release.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/release/app-release.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/release/c.apk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/release/foodtogo-customer.apk" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/release/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/release/output.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/user/data/rest/ApiEndPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/user/data/rest/ApiEndPoints.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_add_address.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_add_address.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nibo_library/src/main/java/com/alium/nibo/repo/api/GeocodeAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/nibo_library/src/main/java/com/alium/nibo/repo/api/GeocodeAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nibo_library/src/main/java/com/alium/nibo/repo/location/SuggestionsProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/nibo_library/src/main/java/com/alium/nibo/repo/location/SuggestionsProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nibo_library/src/main/java/com/alium/nibo/utils/NiboConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/nibo_library/src/main/java/com/alium/nibo/utils/NiboConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/user/data/rest/ApiClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/user/data/rest/ApiClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/user/ui/address/mvp/AddAddressModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/foodtogo/user/ui/address/mvp/AddAddressModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/androidx/appcompat/group-index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/androidx/appcompat/group-index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/androidx/constraintlayout/group-index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/androidx/constraintlayout/group-index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/androidx/test/group-index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/androidx/test/group-index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/google/android/gms/group-index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/google/android/gms/group-index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/google/android/material/group-index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/google/android/material/group-index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/google/firebase/group-index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/google/firebase/group-index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/master-index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/master-index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nibo_library/src/main/java/com/alium/nibo/base/BaseNiboFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/nibo_library/src/main/java/com/alium/nibo/base/BaseNiboFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nibo_library/src/main/java/com/alium/nibo/placepicker/NiboPickerFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/nibo_library/src/main/java/com/alium/nibo/placepicker/NiboPickerFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nibo_library/src/main/java/com/alium/nibo/placepicker/NiboPickerPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/nibo_library/src/main/java/com/alium/nibo/placepicker/NiboPickerPresenter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,8 +151,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android-custom-view/Users/jhjan/Documents/SWDEV/FTG/ftg_customer/nibo_library/src/main/java/com/alium/nibo/autocompletesearchbar/NiboPlacesAutoCompleteSearchView.java_NiboPlacesAutoCompleteSearchView_DIMENSIONS" value="1080&#10;1920" />
+    <property name="android-custom-view/Users/jhjan/Documents/SWDEV/FTG/ftg_customer/nibo_library/src/main/java/com/alium/nibo/autocompletesearchbar/NiboPlacesAutoCompleteSearchView.java_SELECTED" value="NiboPlacesAutoCompleteSearchView" />
+    <property name="android-custom-view/Users/jhjan/Documents/SWDEV/FTG/ftg_customer/nibo_library/src/main/java/com/alium/nibo/autocompletesearchbar/RevealViewGroup.java_SELECTED" value="RevealViewGroup" />
     <property name="android-custom-view/Users/jhjan/Documents/testinit/ftg_customer/nibo_library/src/main/java/com/alium/nibo/autocompletesearchbar/NiboPlacesAutoCompleteSearchView.java_NiboPlacesAutoCompleteSearchView_DIMENSIONS" value="1080&#10;1920" />
     <property name="android-custom-view/Users/jhjan/Documents/testinit/ftg_customer/nibo_library/src/main/java/com/alium/nibo/autocompletesearchbar/NiboPlacesAutoCompleteSearchView.java_SELECTED" value="NiboPlacesAutoCompleteSearchView" />
+    <property name="android-custom-view/Users/jhjan/Documents/testinit/ftg_customer/nibo_library/src/main/java/com/alium/nibo/autocompletesearchbar/RevealViewGroup.java_RevealViewGroup_DIMENSIONS" value="1080&#10;1920" />
+    <property name="android-custom-view/Users/jhjan/Documents/testinit/ftg_customer/nibo_library/src/main/java/com/alium/nibo/autocompletesearchbar/RevealViewGroup.java_SELECTED" value="RevealViewGroup" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="memory.settings.postsync.last.time.stamp" value="1633793597473" />
     <property name="project.structure.last.edited" value="Modules" />

@@ -59,6 +59,8 @@ public class NiboPickerPresenter extends BaseNiboPresenter<View> implements Nibo
         geoCodingParams.putData(NiboConstants.LATITUDE_PARAM, lati);
         geoCodingParams.putData(NiboConstants.LONGITUDE_PARAM, longi);
         geoCodingParams.putString(NiboConstants.LANGUAGE_MAP,language);
+        Log.d("dsadadsad","hahaa"+geoCodingParams);
+
         geocodeCordinatesUseCase.execute(new GeocodeAddressObserver(), geoCodingParams);
     }
 
@@ -67,6 +69,7 @@ public class NiboPickerPresenter extends BaseNiboPresenter<View> implements Nibo
         @Override
         public void onNext(String address) {
             super.onNext(address);
+            Log.d("dsadadsad","next"+address);
             onGeocodeSuccess(address);
         }
 
@@ -74,6 +77,7 @@ public class NiboPickerPresenter extends BaseNiboPresenter<View> implements Nibo
         @Override
         public void onError(Throwable exception) {
             super.onError(exception);
+            Log.d("dsadadsad","exception"+exception);
             onGeocodeError(exception);
         }
     }
@@ -82,6 +86,7 @@ public class NiboPickerPresenter extends BaseNiboPresenter<View> implements Nibo
         @Override
         public void onNext(Place place) {
             super.onNext(place);
+            Log.d("dsadadsad","success"+place);
             onGetPlaceDetailsSuccess(place);
         }
 
@@ -116,6 +121,8 @@ public class NiboPickerPresenter extends BaseNiboPresenter<View> implements Nibo
     public void onGeocodeSuccess(String address) {
         double latitude = geoCodingParams.getDouble(NiboConstants.LATITUDE_PARAM, 0);
         double longitude = geoCodingParams.getDouble(NiboConstants.LONGITUDE_PARAM, 0);
+
+        Log.d("dsadadsad",address);
         selectedPlace = new NiboSelectedPlace(latitude, longitude, null, address);
         getView().showResultView();
         getView().setGeocodeAddress(address);

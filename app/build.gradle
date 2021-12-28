@@ -5,7 +5,7 @@ android {
         defaultconfig {
             keyAlias 'FoodToGo'
             keyPassword 'FoodToGo'
-            storeFile file('/Users/jhjan/Documents/testinit/keystore/ft/customer/custoner.jks')
+            storeFile file('/Users/jhjan/Documents/SWDEV/FTG/keystore/ft/customer/custoner.jks')
             storePassword 'FoodToGo'
         }
     }
@@ -14,8 +14,8 @@ android {
         applicationId "com.foodtogo.user"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 7
-        versionName "1.3"
+        versionCode 10
+        versionName "1.6"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         renderscriptTargetApi rootProject.ext.compileSdkVersion as int
         renderscriptSupportModeEnabled true

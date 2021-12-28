@@ -30,9 +30,9 @@ public class ApiClient {
 
     private static OkHttpClient getOkHttpClient(HttpLoggingInterceptor httpLoggingInterceptor) {
         OkHttpClient.Builder builder = new OkHttpClient.Builder()
-                .connectTimeout(40, TimeUnit.SECONDS)
-                .writeTimeout(40, TimeUnit.SECONDS)
-                .readTimeout(40, TimeUnit.SECONDS)
+                .connectTimeout(10, TimeUnit.MINUTES)
+                .writeTimeout(10, TimeUnit.MINUTES)
+                .readTimeout(10, TimeUnit.MINUTES)
                 .addInterceptor(new ApiInterceptor());
         //if (BuildConfig.DEBUG) {
             builder.addInterceptor(httpLoggingInterceptor);

@@ -12,6 +12,7 @@ import androidx.annotation.DrawableRes;
 import androidx.annotation.Nullable;
 import androidx.annotation.RawRes;
 import android.transition.TransitionManager;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
@@ -185,9 +186,10 @@ public class NiboPickerFragment extends BaseNiboFragment<NiboPickerContracts.Pre
     @Override
     protected void extractGeocode(final double lati, final double longi) {
         try {
+            Log.d("dsadadsad","dine" + lati+" ---  "+ longi);
             presenter.getGeocode(lati, longi,getString(R.string.language));
         } catch (Exception e) {
-
+            Log.d("dsadadsad",e.getMessage());
         }
     }
 

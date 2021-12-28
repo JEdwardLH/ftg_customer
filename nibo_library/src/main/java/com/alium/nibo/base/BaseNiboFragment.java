@@ -515,6 +515,7 @@ public abstract class BaseNiboFragment<T extends NiboPresentable> extends Fragme
             ApplicationInfo ai = getActivity().getPackageManager().getApplicationInfo(getActivity().getPackageName(), PackageManager.GET_META_DATA);
             Bundle bundle = ai.metaData;
             String apiKey = bundle.getString("com.google.android.geo.API_KEY");
+            Log.d("dsadadsad","apikey"+apiKey);
             getPresenter().setGoogleAPIKey(apiKey,getString(R.string.language));
         } catch (PackageManager.NameNotFoundException e) {
             Log.e(TAG, "Failed to load meta-data, NameNotFound: " + e.getMessage());

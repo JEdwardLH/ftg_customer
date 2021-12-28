@@ -2,6 +2,7 @@ package com.foodtogo.user.ui.address.mvp;
 
 
 import android.content.Context;
+import android.util.Log;
 
 import com.foodtogo.user.BaseApplication;
 import com.foodtogo.user.R;
@@ -55,6 +56,7 @@ public class AddAddressModel implements AddAddressContractor.Model {
                 .subscribeWith(new DisposableSingleObserver<GeoCodeAddress>() {
                     @Override
                     public void onSuccess(GeoCodeAddress geoCodeAddress) {
+                        Log.d("dsadadsad","SUCCESS");
                         if (geoCodeAddress.getStatus().equals("OK")) {
                             mPresenter.onGeoCodeAddress(geoCodeAddress);
                         } else {
@@ -64,6 +66,7 @@ public class AddAddressModel implements AddAddressContractor.Model {
 
                     @Override
                     public void onError(Throwable e) {
+                        Log.d("dsadadsad",e.getMessage());
                         if (e instanceof HttpException) {
                             ResponseBody responseBody = ((HttpException) e).response().errorBody();
                             mPresenter.apiError(NetworkUtils.getErrorMessage(responseBody));

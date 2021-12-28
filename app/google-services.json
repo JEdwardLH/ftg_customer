@@ -7,28 +7,44 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:234950729942:android:6b00a9ca817c58b9a4e977",
+        "mobilesdk_app_id": "1:234950729942:android:5c8f4ad481115651a4e977",
         "android_client_info": {
           "package_name": "com.foodtogo.user"
         }
       },
       "oauth_client": [
         {
-          "client_id": "234950729942-munu17mj3esp7p8sgms1l16dqssuoeiu.apps.googleusercontent.com",
+          "client_id": "234950729942-uu76no6gg5ungr6hq779jbabbgoi1ofh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.foodtogo.user",
+            "certificate_hash": "617d0c86e24d958516da0e5becd3bf3fd723db8f"
+          }
+        },
+        {
+          "client_id": "234950729942-2cavji3jq20har378he0fahi2o2iojh7.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCvN4BaZ5U033V59_CauMi33wq6Jnyr5ZI"
+          "current_key": "AIzaSyCZtMVyzhPgN3GuljxSoEn_yV5LKZ-Y0cw"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "234950729942-munu17mj3esp7p8sgms1l16dqssuoeiu.apps.googleusercontent.com",
+              "client_id": "234950729942-2cavji3jq20har378he0fahi2o2iojh7.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "234950729942-e6cp7751i81ia0ke4tp78ff0ac8h6t95.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.foodtogo.user",
+                "app_store_id": "1543932581"
+              }
             }
           ]
         }
